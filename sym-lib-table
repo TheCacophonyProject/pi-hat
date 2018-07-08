@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pi-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/pi-hat-rescue.lib)(options "")(descr ""))
+  (lib (name cacophony-pi-hat)(type Legacy)(uri /home/cameron/cacophony/pi-hat/cacophony-pi-hat.lib)(options "")(descr ""))
+)

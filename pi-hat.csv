@@ -1,22 +1,50 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"J2";"JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical";1;"Conn_SPI";;;
-2;"J7";"USB_A_Horizontal";1;"USB_OUT";;;
-3;"D1,D3,D7";"JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical";3;"LED";;;
-4;"D2,D4,D6,D8";"LED_1206_3216Metric_Pad1.07x1.80mm_HandSolder";4;"LED";;;
-5;"J1";"PinHeader_2x20_P2.54mm_Vertical";1;"Raspberry_Pi_2_3";;;
-6;"J4";"JST_XH_B08B-XH-A_1x08_P2.50mm_Vertical";1;"Conn_01x08";;;
-7;"J5";"USB_B_Horizontal";1;"USB_B";;;
-8;"J8";"BarrelJack_Horizontal";1;"Jack-DC";;;
-9;"M1,M2,M3";"PinHeader_1x03_P2.54mm_Vertical";3;"Motor_Servo";;;
-10;"R1,R2,R8,R10,R14,R15";"R_1206_3216Metric_Pad1.24x1.80mm_HandSolder";6;"100K";;;
-11;"R3,R4,R5,R6,R9,R13";"R_1206_3216Metric_Pad1.24x1.80mm_HandSolder";6;"470R";;;
-12;"R11";"R_1206_3216Metric_Pad1.24x1.80mm_HandSolder";1;"100R";;;
-13;"SW1,SW2";"JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical";2;"SW_Push";;;
-14;"U1";"DIP-8_W7.62mm_Socket";1;"ATTINY85-20SU";;;
-15;"C1";"CP_Radial_D8.0mm_P3.50mm";1;"CP";;;
-16;"Q4";"SOT-223";1;"Q_NMOS_GDS";;;
-17;"J3";"PinHeader_1x04_P2.54mm_Vertical";1;"Conn_RTC";;;
-18;"MK1,MK2";"MountingHole_2.7mm_M2.5";2;"Mounting_Hole";;;
-19;"Q1,Q2,Q5";"SC-59";3;"Q_NMOS_GDS";;;
-20;"SW3";"CJS-1200A1";1;"SW_DPST_x2";;;
-21;"G***";"logo5";1;"LOGO";;;
+Generated,Wed 27 Jun 2018 11:49:41 NZST,,,,
+Ref,Qty,Value,Footprint,Digikey,Digikey2
+BT2 ,1,1206,pi-hat-footprints:CR1220,BC501SM-ND ,SY033-ND
+C3 C5 C20 C19 C12 ,5,10uF,Capacitors_SMD:C_0805_HandSoldering,490-5523-1-ND, 
+C4 C16,2,100nF,Capacitors_SMD:C_0805_HandSoldering,720-1756-1-ND, 
+C11 ,1,820uF,Capacitors_THT:CP_Radial_D10.0mm_P5.00mm,1189-2915-ND, 
+C18 C17 ,2,10uF,Capacitors_SMD:C_0603_HandSoldering,445-11238-1-ND, 
+C13 C14 C15 ,3,22uF,Capacitors_SMD:C_0805_HandSoldering,490-10749-1-ND,
+C1 C2 ,2,1uF,Capacitors_SMD:C_0805_HandSoldering,732-7625-1-ND, 
+D1 ,1,LED,LEDs:LED_0603_HandSoldering,160-1447-1-ND, 
+D2 ,1,LED_GREEN,LEDs:LED_0603_HandSoldering,160-1446-1-ND, 
+D4 ,1,D,Diodes_SMD:D_SOD-323_HandSoldering,1N4148WXTPMSCT-ND, 
+D3 ,1,D_Zener,Diodes_SMD:D_SOD-323_HandSoldering,MM3Z4V3BCT-ND, 
+J1 ,1,Raspberry_Pi_2_3,Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm,SAM8767-ND,S9200-ND
+J2 ,1,Conn_SPI,Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight,455-2249-ND, 
+J4 ,1,Conn_01x08,Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight,455-2251-ND, 
+J7 ,1,USB_OUT,Connector_USB:USB_A_Horizontal,ED2989-ND, 
+J5 ,1,USB_B,Connector_USB:USB_B_Horizontal,ED2983-ND, 
+J6 ,1,Conn_01x02,Connectors:bornier2,A98333-ND, 
+J9 ,1,Conn_01x02,Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight,455-2247-ND, 
+J3 ,1,Jack-DC,Connectors:BARREL_JACK,CP-002A-ND, 
+L2 ,1,1.5uH,pi-hat-footprints:ETQP3MxxxKVP,P19760CT-ND, 
+Q1 Q5 ,2,Q_NMOS_GDS,TO_SOT_Packages_SMD:SC-59_Handsoldering,785-1015-1-ND, 
+Q3 ,1,Q_NMOS_GDS,TO_SOT_Packages_SMD:SOT-223,NTF3055L108T1GOSCT-ND, 
+R8 R15 R7 R9 R17 ,5,100K,Resistors_SMD:R_0603_HandSoldering,CR0603-FX-1003ELFCT-ND, 
+R3 R2 R6 ,3,470R,Resistors_SMD:R_0603_HandSoldering,311-470HRCT-ND, 
+R12 ,1,634K,Resistors_SMD:R_0603_HandSoldering,541-634KHCT-ND, 
+R16 R1 ,2,1K,Resistors_SMD:R_0603_HandSoldering,311-1.0KGRCT-ND,
+R4 R18,2,10K,Resistors_SMD:R_0603_HandSoldering,A126331CT-ND, 
+SW1 ,1,SW_DPST_x2,switch-footprint:CJS-1200A1,563-1021-1-ND, 
+U2 ,1,MAX98357,Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm,MAX98357AETE+TCT-ND, 
+U5 ,1,ATTINY85-20SU,Housings_DIP:DIP-8_W7.62mm_Socket,AE9986-ND, 
+U7 ,1,TPS630701,pi-hat-footprints:TPS63070,296-44765-1-ND, 
+U6 ,1,PCF8523,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,568-5306-1-ND, 
+Y2 ,1,32.768,Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm_HandSoldering,535-10240-1-ND, 
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,, 
+,,,,, 
