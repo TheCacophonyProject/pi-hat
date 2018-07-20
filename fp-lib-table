@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name switch-footprint)(type KiCad)(uri "$(KIPRJMOD)/switch-footprint.pretty")(options "")(descr ""))
-  (lib (name logo)(type KiCad)(uri "$(KIPRJMOD)/logo.pretty")(options "")(descr ""))
-  (lib (name TPS63070RNMT)(type Legacy)(uri ${KIPRJMOD}/pi-hat-footprints.pretty/TPS63070RNMT.mod)(options "")(descr ""))
+  (lib (name pi-hat-footprints)(type KiCad)(uri ${KIPRJMOD}/pi-hat-footprints.pretty)(options "")(descr ""))
 )
