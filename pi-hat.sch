@@ -169,6 +169,7 @@ F 3 "~" H 1350 2050 50  0001 C CNN
 F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
 F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07100KL" H 0   0   50  0001 C CNN "OPL"
 	1    1350 2050
 	1    0    0    -1  
 $EndComp
@@ -243,6 +244,7 @@ F 3 "" H 10450 4950 50  0001 C CNN
 F 4 "ED2989-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/on-shore-technology-inc/USB-A1HSW6/ED2989-ND/2677750" H 0   0   50  0001 C CNN "Link"
 F 6 "USB-A1HSW6" H 0   0   50  0001 C CNN "MPN"
+F 7 "ST-USB-003A" H 0   0   50  0001 C CNN "OPL"
 	1    10300 5000
 	1    0    0    -1  
 $EndComp
@@ -301,6 +303,7 @@ F 3 "~" H 9950 5900 50  0001 C CNN
 F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
 F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07100KL" H 0   0   50  0001 C CNN "OPL"
 	1    9950 5900
 	1    0    0    -1  
 $EndComp
@@ -356,6 +359,7 @@ F 3 "~" H 9800 1800 50  0001 C CNN
 F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
 F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07470RL" H 0   0   50  0001 C CNN "OPL"
 	1    9800 1800
 	1    0    0    -1  
 $EndComp
@@ -461,6 +465,7 @@ F 3 "" H 4050 1250 50  0001 C CNN
 F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
 F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07100KL" H 0   0   50  0001 C CNN "OPL"
 	1    4050 1250
 	0    1    1    0   
 $EndComp
@@ -615,6 +620,7 @@ F 3 "~" H 10150 1800 50  0001 C CNN
 F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
 F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07470RL" H 0   0   50  0001 C CNN "OPL"
 	1    10150 1800
 	1    0    0    -1  
 $EndComp
@@ -771,6 +777,7 @@ F 3 "" H 4150 2000 50  0001 C CNN
 F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
 	1    4150 2000
 	1    0    0    -1  
 $EndComp
@@ -810,6 +817,7 @@ F 3 "" H 3800 2000 50  0001 C CNN
 F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
 	1    3800 2000
 	1    0    0    -1  
 $EndComp
@@ -826,6 +834,7 @@ F 3 "" H 3450 2000 50  0001 C CNN
 F 4 "720-1756-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104MXXAT/720-1756-1-ND/8324176" H 0   0   50  0001 C CNN "Link"
 F 6 "VJ0805Y104MXXAT" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "OPL"
 	1    3450 2000
 	1    0    0    -1  
 $EndComp

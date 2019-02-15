@@ -44,6 +44,7 @@ F 3 "~" H 1100 2510 50  0001 C CNN
 F 4 "CP-002A-ND" H 1050 2550 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" H 0   0   50  0001 C CNN "Link"
 F 6 "PJ-002A" H 0   0   50  0001 C CNN "MPN"
+F 7 "DC-005" H 0   0   50  0001 C CNN "OPL"
 	1    1050 2550
 	1    0    0    -1  
 $EndComp
@@ -77,6 +78,7 @@ F 3 "~" H 3000 6150 50  0001 C CNN
 F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
 F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07100KL" H 0   0   50  0001 C CNN "OPL"
 	1    3000 6150
 	1    0    0    -1  
 $EndComp
@@ -113,6 +115,7 @@ F 3 "~" H 2700 4700 50  0001 C CNN
 F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
 F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07470RL" H 0   0   50  0001 C CNN "OPL"
 	1    2700 4700
 	0    1    1    0   
 $EndComp
@@ -292,6 +295,7 @@ F 3 "" H 9900 4950 50  0001 C CNN
 F 4 "A126394CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H 0   0   50  0001 C CNN "Link"
 F 6 "CRGH0603J10K" H 0   0   50  0001 C CNN "MPN"
+F 7 "SMD RES 10K-5%-1/10W" H 0   0   50  0001 C CNN "OPL"
 	1    9900 4950
 	0    1    1    0   
 $EndComp
@@ -308,6 +312,7 @@ F 3 "" H 10800 5200 50  0001 C CNN
 F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
 	1    10800 5200
 	1    0    0    -1  
 $EndComp
@@ -324,6 +329,7 @@ F 3 "" H 10450 5200 50  0001 C CNN
 F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
 	1    10450 5200
 	1    0    0    -1  
 $EndComp
@@ -340,6 +346,7 @@ F 3 "" H 10050 5200 50  0001 C CNN
 F 4 "445-11238-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608JB1E106M080AC/445-11238-1-ND/3952904" H 0   0   50  0001 C CNN "Link"
 F 6 "C1608JB1E106M080AC" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0603KRX5R6BB106" H 0   0   50  0001 C CNN "OPL"
 	1    10050 5200
 	1    0    0    -1  
 $EndComp
@@ -356,6 +363,7 @@ F 3 "" H 8200 4950 50  0001 C CNN
 F 4 "720-1756-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104MXXAT/720-1756-1-ND/8324176" H 0   0   50  0001 C CNN "Link"
 F 6 "VJ0805Y104MXXAT" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "OPL"
 	1    8200 4950
 	0    1    1    0   
 $EndComp
@@ -374,6 +382,7 @@ F 3 "" H 7750 5100 50  0001 C CNN
 F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
 F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-07100KL" V 7750 5100 50  0001 C CNN "OPL"
 	1    7750 5100
 	-1   0    0    1   
 $EndComp
@@ -390,6 +399,7 @@ F 3 "" H 7300 5650 50  0001 C CNN
 F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
 F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
+F 7 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "OPL"
 	1    7300 5650
 	1    0    0    -1  
 $EndComp
@@ -406,6 +416,7 @@ F 3 "" H 7650 5650 50  0001 C CNN
 F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
 F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
+F 7 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "OPL"
 	1    7650 5650
 	1    0    0    -1  
 $EndComp
@@ -422,6 +433,7 @@ F 3 "" H 8100 5650 50  0001 C CNN
 F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
 F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
+F 7 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "OPL"
 	1    8100 5650
 	1    0    0    -1  
 $EndComp
@@ -438,6 +450,7 @@ F 3 "" H 8450 5650 50  0001 C CNN
 F 4 "445-11238-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608JB1E106M080AC/445-11238-1-ND/3952904" H 0   0   50  0001 C CNN "Link"
 F 6 "C1608JB1E106M080AC" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0603KRX5R6BB106" H 0   0   50  0001 C CNN "OPL"
 	1    8450 5650
 	1    0    0    -1  
 $EndComp
@@ -593,6 +606,7 @@ F 3 "" H 10250 1600 50  0001 C CNN
 F 4 "P1.00KHCT-ND" H 10250 1600 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071" H 0   0   50  0001 C CNN "Link"
 F 6 "ERJ-3EKF1001V" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-071KL" H 0   0   50  0001 C CNN "OPL"
 	1    10250 1600
 	1    0    0    -1  
 $EndComp
@@ -626,6 +640,7 @@ F 3 "" H 10250 2000 50  0001 C CNN
 F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
 	1    10250 2000
 	1    0    0    -1  
 $EndComp
@@ -854,6 +869,7 @@ F 3 "" H 1100 5600 50  0001 C CNN
 F 4 "P1.00KHCT-ND" H 1100 5600 50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071" H 0   0   50  0001 C CNN "Link"
 F 6 "ERJ-3EKF1001V" H 0   0   50  0001 C CNN "MPN"
+F 7 "RC0603JR-071KL" H 0   0   50  0001 C CNN "OPL"
 	1    1100 5600
 	1    0    0    -1  
 $EndComp
@@ -868,6 +884,7 @@ F 3 "" H 1100 6000 50  0001 C CNN
 F 4 "A126394CT-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H 0   0   50  0001 C CNN "Link"
 F 6 "CRGH0603J10K" H 0   0   50  0001 C CNN "MPN"
+F 7 "SMD RES 10K-5%-1/10W" H 0   0   50  0001 C CNN "OPL"
 	1    1100 6000
 	1    0    0    -1  
 $EndComp
@@ -882,6 +899,7 @@ F 3 "" H 1350 6000 50  0001 C CNN
 F 4 "1276-1066-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-1-ND/3889152" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21B105KAFNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX7R8BB105" H 0   0   50  0001 C CNN "OPL"
 	1    1350 6000
 	1    0    0    -1  
 $EndComp
@@ -961,6 +979,7 @@ F 3 "" H 6250 4850 50  0001 C CNN
 F 4 "1276-1066-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-1-ND/3889152" H 0   0   50  0001 C CNN "Link"
 F 6 "CL21B105KAFNNNE" H 0   0   50  0001 C CNN "MPN"
+F 7 "CC0805KKX7R8BB105" H 0   0   50  0001 C CNN "OPL"
 	1    6250 4850
 	1    0    0    -1  
 $EndComp
