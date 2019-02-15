@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# cacophony-pi-hat:MAX98357
+# cacophony-pi-hat_MAX98357
 #
-DEF cacophony-pi-hat:MAX98357 U 0 40 Y Y 1 F N
+DEF cacophony-pi-hat_MAX98357 U 0 40 Y Y 1 F N
 F0 "U" -100 -550 50 H V C CNN
-F1 "cacophony-pi-hat:MAX98357" -150 350 50 H V C CNN
+F1 "cacophony-pi-hat_MAX98357" -150 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ X OUTP 9 400 -450 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# cacophony-pi-hat:PCF8523
+# cacophony-pi-hat_PCF8523
 #
-DEF cacophony-pi-hat:PCF8523 U 0 40 Y Y 1 F N
+DEF cacophony-pi-hat_PCF8523 U 0 40 Y Y 1 F N
 F0 "U" 0 200 79 H V C CNN
-F1 "cacophony-pi-hat:PCF8523" 0 100 79 H V C CNN
+F1 "cacophony-pi-hat_PCF8523" 0 100 79 H V C CNN
 F2 "" 0 0 79 H I C CNN
 F3 "" 0 0 79 H I C CNN
 DRAW
@@ -49,11 +49,11 @@ X VDD 8 450 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# cacophony-pi-hat:TPS63070
+# cacophony-pi-hat_TPS63070
 #
-DEF cacophony-pi-hat:TPS63070 U 0 40 Y Y 1 F N
+DEF cacophony-pi-hat_TPS63070 U 0 40 Y Y 1 F N
 F0 "U" 200 200 50 H V C CNN
-F1 "cacophony-pi-hat:TPS63070" -100 200 50 H V C CNN
+F1 "cacophony-pi-hat_TPS63070" -100 200 50 H V C CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 DRAW
@@ -76,11 +76,11 @@ X L2 9 450 -600 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# conn:Conn_01x02
+# conn_Conn_01x02
 #
-DEF conn:Conn_01x02 J 0 40 Y N 1 F N
+DEF conn_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "conn:Conn_01x02" 0 -200 50 H V C CNN
+F1 "conn_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -100,11 +100,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Battery_Cell
+# device_Battery_Cell
 #
-DEF device:Battery_Cell BT 0 0 N N 1 F N
+DEF device_Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "device:Battery_Cell" 100 0 50 H V L CNN
+F1 "device_Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -119,11 +119,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C_Small
+# device_C_Small
 #
-DEF device:C_Small C 0 10 N N 1 F N
+DEF device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
+F1 "device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -137,11 +137,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Crystal_GND23
+# device_Crystal_GND23
 #
-DEF device:Crystal_GND23 Y 0 40 Y N 1 F N
+DEF device_Crystal_GND23 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "device:Crystal_GND23" 125 125 50 H V L CNN
+F1 "device_Crystal_GND23" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -164,11 +164,11 @@ X 4 4 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:D
+# device_D
 #
-DEF device:D D 0 40 N N 1 F N
+DEF device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:D" 0 -100 50 H V C CNN
+F1 "device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -187,11 +187,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:D_Zener
+# device_D_Zener
 #
-DEF device:D_Zener D 0 40 N N 1 F N
+DEF device_D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Zener" 0 -100 50 H V C CNN
+F1 "device_D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,11 +210,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:L
+# device_L
 #
-DEF device:L L 0 40 N N 1 F N
+DEF device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "device:L" 75 0 50 V V C CNN
+F1 "device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -233,11 +233,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# device_R
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -251,11 +251,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:ATTINY85-20SU-pi-hat-cache
+# pi-hat-rescue_ATTINY85-20SU-pi-hat-cache-pi-hat-rescue
 #
-DEF pi-hat-rescue:ATTINY85-20SU-pi-hat-cache U 0 40 Y Y 1 F N
+DEF pi-hat-rescue_ATTINY85-20SU-pi-hat-cache-pi-hat-rescue U 0 40 Y Y 1 F N
 F0 "U" -1150 400 50 H V C CNN
-F1 "pi-hat-rescue:ATTINY85-20SU-pi-hat-cache" 1000 -400 50 H V C CNN
+F1 "pi-hat-rescue_ATTINY85-20SU-pi-hat-cache-pi-hat-rescue" 1000 -400 50 H V C CNN
 F2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" 950 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -274,11 +274,11 @@ X VCC 8 1350 250 150 L 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:CP-Device
+# pi-hat-rescue_CP-Device-pi-hat-rescue
 #
-DEF pi-hat-rescue:CP-Device C 0 10 N Y 1 F N
+DEF pi-hat-rescue_CP-Device-pi-hat-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "pi-hat-rescue:CP-Device" 25 -100 50 H V L CNN
+F1 "pi-hat-rescue_CP-Device-pi-hat-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -297,11 +297,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Conn_01x04-Connector_Generic
+# pi-hat-rescue_Conn_01x04-Connector_Generic-pi-hat-rescue
 #
-DEF pi-hat-rescue:Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF pi-hat-rescue_Conn_01x04-Connector_Generic-pi-hat-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "pi-hat-rescue:Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "pi-hat-rescue_Conn_01x04-Connector_Generic-pi-hat-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -320,11 +320,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Conn_01x08-Connector_Generic
+# pi-hat-rescue_Conn_01x08-Connector_Generic-pi-hat-rescue
 #
-DEF pi-hat-rescue:Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
+DEF pi-hat-rescue_Conn_01x08-Connector_Generic-pi-hat-rescue J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "pi-hat-rescue:Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
+F1 "pi-hat-rescue_Conn_01x08-Connector_Generic-pi-hat-rescue" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -351,11 +351,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache
+# pi-hat-rescue_Connector_Specialized_Jack-DC-pi-hat-cache-pi-hat-rescue
 #
-DEF pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache J 0 40 Y Y 1 F N
+DEF pi-hat-rescue_Connector_Specialized_Jack-DC-pi-hat-cache-pi-hat-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache" 0 -175 50 H V C CNN
+F1 "pi-hat-rescue_Connector_Specialized_Jack-DC-pi-hat-cache-pi-hat-rescue" 0 -175 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 $FPLIST
@@ -376,11 +376,11 @@ X ~ 3 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache
+# pi-hat-rescue_Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache-pi-hat-rescue
 #
-DEF pi-hat-rescue:Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache J 0 40 Y Y 1 F N
+DEF pi-hat-rescue_Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache-pi-hat-rescue J 0 40 Y Y 1 F N
 F0 "J" 700 -1250 50 H V C CNN
-F1 "pi-hat-rescue:Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache" -400 900 50 H V C CNN
+F1 "pi-hat-rescue_Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache-pi-hat-rescue" -400 900 50 H V C CNN
 F2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" 1000 1250 50 H I C CNN
 F3 "" 50 -150 50 H I C CNN
 $FPLIST
@@ -431,11 +431,11 @@ X GND 9 -300 -1300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Connector_Specialized_USB_A-pi-hat-cache
+# pi-hat-rescue_Connector_Specialized_USB_A-pi-hat-cache-pi-hat-rescue
 #
-DEF pi-hat-rescue:Connector_Specialized_USB_A-pi-hat-cache J 0 40 Y Y 1 F N
+DEF pi-hat-rescue_Connector_Specialized_USB_A-pi-hat-cache-pi-hat-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "pi-hat-rescue:Connector_Specialized_USB_A-pi-hat-cache" -200 350 50 H V L CNN
+F1 "pi-hat-rescue_Connector_Specialized_USB_A-pi-hat-cache-pi-hat-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -464,11 +464,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Connector_Specialized_USB_B-pi-hat-cache
+# pi-hat-rescue_Connector_Specialized_USB_B-pi-hat-cache-pi-hat-rescue
 #
-DEF pi-hat-rescue:Connector_Specialized_USB_B-pi-hat-cache J 0 40 Y Y 1 F N
+DEF pi-hat-rescue_Connector_Specialized_USB_B-pi-hat-cache-pi-hat-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "pi-hat-rescue:Connector_Specialized_USB_B-pi-hat-cache" -200 350 50 H V L CNN
+F1 "pi-hat-rescue_Connector_Specialized_USB_B-pi-hat-cache-pi-hat-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -497,11 +497,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:LED-Device
+# pi-hat-rescue_LED-Device-pi-hat-rescue
 #
-DEF pi-hat-rescue:LED-Device D 0 40 N N 1 F N
+DEF pi-hat-rescue_LED-Device-pi-hat-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "pi-hat-rescue:LED-Device" 0 -100 50 H V C CNN
+F1 "pi-hat-rescue_LED-Device-pi-hat-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -520,11 +520,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Q_NMOS_GDSD-Device
+# pi-hat-rescue_Q_NMOS_GDSD-Device-pi-hat-rescue
 #
-DEF pi-hat-rescue:Q_NMOS_GDSD-Device Q 0 0 Y N 1 F N
+DEF pi-hat-rescue_Q_NMOS_GDSD-Device-pi-hat-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "pi-hat-rescue:Q_NMOS_GDSD-Device" 200 -50 50 H V L CNN
+F1 "pi-hat-rescue_Q_NMOS_GDSD-Device-pi-hat-rescue" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -554,11 +554,11 @@ X D 4 200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:Q_NMOS_GSD-Device
+# pi-hat-rescue_Q_NMOS_GSD-Device-pi-hat-rescue
 #
-DEF pi-hat-rescue:Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF pi-hat-rescue_Q_NMOS_GSD-Device-pi-hat-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "pi-hat-rescue:Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "pi-hat-rescue_Q_NMOS_GSD-Device-pi-hat-rescue" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -586,11 +586,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pi-hat-rescue:R-Device
+# pi-hat-rescue_R-Device-pi-hat-rescue
 #
-DEF pi-hat-rescue:R-Device R 0 0 N Y 1 F N
+DEF pi-hat-rescue_R-Device-pi-hat-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "pi-hat-rescue:R-Device" 0 0 50 V V C CNN
+F1 "pi-hat-rescue_R-Device-pi-hat-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -603,11 +603,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -618,11 +618,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -631,11 +631,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VCC
+# power_VCC
 #
-DEF power:VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -645,11 +645,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# switches:SW_DPST_x2
+# switches_SW_DPST_x2
 #
-DEF switches:SW_DPST_x2 SW 0 0 Y N 2 F N
+DEF switches_SW_DPST_x2 SW 0 0 Y N 2 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "switches:SW_DPST_x2" 0 -100 50 H V C CNN
+F1 "switches_SW_DPST_x2" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

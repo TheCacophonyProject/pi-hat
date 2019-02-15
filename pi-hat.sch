@@ -15,24 +15,30 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pi-hat-rescue:Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache J1
+L pi-hat-rescue:Connector_Specialized_Raspberry_Pi_2_3-pi-hat-cache-pi-hat-rescue J1
 U 1 1 5A90DE17
 P 2400 6100
 F 0 "J1" H 3000 7450 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 3000 7350 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3400 7350 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf" H 2450 5950 50  0001 C CNN
+F 4 "S6104-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC202LFBN-RC/S6104-ND/807240" H 0   0   50  0001 C CNN "Link"
+F 6 "PPTC202LFBN-RC" H 0   0   50  0001 C CNN "MPN"
 	1    2400 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:Conn_01x04-Connector_Generic J2
+L pi-hat-rescue:Conn_01x04-Connector_Generic-pi-hat-rescue J2
 U 1 1 5A90E091
 P 3300 3550
 F 0 "J2" H 3450 3450 50  0000 C CNN
 F 1 "Conn_SPI" H 3600 3550 50  0000 C CNN
 F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 3300 3550 50  0001 C CNN
 F 3 "~" H 3300 3550 50  0001 C CNN
+F 4 "455-2249-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4B-XH-A(LF)(SN)/455-2249-ND/1651047" H 0   0   50  0001 C CNN "Link"
+F 6 "B4B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    3300 3550
 	-1   0    0    1   
 $EndComp
@@ -103,13 +109,16 @@ Connection ~ 2600 7450
 Wire Wire Line
 	2600 7450 2700 7450
 $Comp
-L pi-hat-rescue:Conn_01x08-Connector_Generic J4
+L pi-hat-rescue:Conn_01x08-Connector_Generic-pi-hat-rescue J4
 U 1 1 5A91824A
 P 2450 1350
 F 0 "J4" H 2530 1342 50  0000 L CNN
 F 1 "Conn_01x08" H 2530 1251 50  0000 L CNN
 F 2 "Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight" H 2450 1350 50  0001 C CNN
 F 3 "~" H 2450 1350 50  0001 C CNN
+F 4 "455-2251-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B8B-XH-A(LF)(SN)/455-2251-ND/1651049" H 0   0   50  0001 C CNN "Link"
+F 6 "B8B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    2450 1350
 	1    0    0    -1  
 $EndComp
@@ -150,13 +159,16 @@ F 3 "" H 1700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:R-Device R8
+L pi-hat-rescue:R-Device-pi-hat-rescue R8
 U 1 1 5A9301C4
 P 1350 2050
 F 0 "R8" H 1420 2096 50  0000 L CNN
 F 1 "100K" V 1350 1950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1280 2050 50  0001 C CNN
 F 3 "~" H 1350 2050 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
 	1    1350 2050
 	1    0    0    -1  
 $EndComp
@@ -205,26 +217,32 @@ Wire Wire Line
 Wire Wire Line
 	3550 3650 3500 3650
 $Comp
-L pi-hat-rescue:Q_NMOS_GSD-Device Q1
+L pi-hat-rescue:Q_NMOS_GSD-Device-pi-hat-rescue Q1
 U 1 1 5A952EAF
 P 1600 1850
 F 0 "Q1" H 1805 1896 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 1805 1805 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SC-59_Handsoldering" H 1800 1950 50  0001 C CNN
 F 3 "~" H 1600 1850 50  0001 C CNN
+F 4 "785-1015-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AO3422/785-1015-1-ND/1855957" H 0   0   50  0001 C CNN "Link"
+F 6 "AO3422" H 0   0   50  0001 C CNN "MPN"
 	1    1600 1850
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1500 6800
 NoConn ~ 1500 6900
 $Comp
-L pi-hat-rescue:Connector_Specialized_USB_A-pi-hat-cache J7
+L pi-hat-rescue:Connector_Specialized_USB_A-pi-hat-cache-pi-hat-rescue J7
 U 1 1 5A9F478E
 P 10300 5000
 F 0 "J7" H 10355 5467 50  0000 C CNN
 F 1 "USB_OUT" H 10355 5376 50  0000 C CNN
 F 2 "Connector_USB:USB_A_Horizontal" H 10450 4950 50  0001 C CNN
 F 3 "" H 10450 4950 50  0001 C CNN
+F 4 "ED2989-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/on-shore-technology-inc/USB-A1HSW6/ED2989-ND/2677750" H 0   0   50  0001 C CNN "Link"
+F 6 "USB-A1HSW6" H 0   0   50  0001 C CNN "MPN"
 	1    10300 5000
 	1    0    0    -1  
 $EndComp
@@ -273,13 +291,16 @@ F 3 "" H 10300 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:R-Device R15
+L pi-hat-rescue:R-Device-pi-hat-rescue R15
 U 1 1 5AA1C4C6
 P 9950 5900
 F 0 "R15" H 10020 5946 50  0000 L CNN
 F 1 "100K" V 9950 5800 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9880 5900 50  0001 C CNN
 F 3 "~" H 9950 5900 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
 	1    9950 5900
 	1    0    0    -1  
 $EndComp
@@ -298,13 +319,16 @@ Connection ~ 10300 6100
 Wire Wire Line
 	10300 6100 10300 5900
 $Comp
-L pi-hat-rescue:Q_NMOS_GSD-Device Q5
+L pi-hat-rescue:Q_NMOS_GSD-Device-pi-hat-rescue Q5
 U 1 1 5AA1C4D7
 P 10200 5700
 F 0 "Q5" H 10405 5746 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 10405 5655 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SC-59_Handsoldering" H 10400 5800 50  0001 C CNN
 F 3 "~" H 10200 5700 50  0001 C CNN
+F 4 "785-1015-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/alpha-omega-semiconductor-inc/AO3422/785-1015-1-ND/1855957" H 0   0   50  0001 C CNN "Link"
+F 6 "AO3422" H 0   0   50  0001 C CNN "MPN"
 	1    10200 5700
 	1    0    0    -1  
 $EndComp
@@ -322,18 +346,21 @@ F 3 "" H 9800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:R-Device R3
+L pi-hat-rescue:R-Device-pi-hat-rescue R3
 U 1 1 5AA5DD68
 P 9800 1800
 F 0 "R3" H 9870 1846 50  0000 L CNN
 F 1 "470R" V 9800 1700 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 1800 50  0001 C CNN
 F 3 "~" H 9800 1800 50  0001 C CNN
+F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
+F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
 	1    9800 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:LED-Device D1
+L pi-hat-rescue:LED-Device-pi-hat-rescue D1
 U 1 1 5AA5DD6F
 P 9800 1450
 F 0 "D1" V 9838 1333 50  0000 R CNN
@@ -341,6 +368,8 @@ F 1 "LED" V 9747 1333 50  0000 R CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 9800 1450 50  0001 C CNN
 F 3 "~" H 9800 1450 50  0001 C CNN
 F 4 "160-1447-1-ND" V 9800 1450 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 0   0   50  0001 C CNN "Link"
+F 6 "LTST-C191KRKT" H 0   0   50  0001 C CNN "MPN"
 	1    9800 1450
 	0    -1   -1   0   
 $EndComp
@@ -349,13 +378,16 @@ Wire Wire Line
 Wire Wire Line
 	9800 1950 9800 2000
 $Comp
-L pi-hat-rescue:Connector_Specialized_USB_B-pi-hat-cache J5
+L pi-hat-rescue:Connector_Specialized_USB_B-pi-hat-cache-pi-hat-rescue J5
 U 1 1 5AAC3C74
 P 10300 3850
 F 0 "J5" H 10355 4317 50  0000 C CNN
 F 1 "USB_B" H 10355 4226 50  0000 C CNN
 F 2 "Connector_USB:USB_B_Horizontal" H 10450 3800 50  0001 C CNN
 F 3 "" H 10450 3800 50  0001 C CNN
+F 4 "ED2983-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/on-shore-technology-inc/USB-B1HSB6/ED2983-ND/2677744" H 0   0   50  0001 C CNN "Link"
+F 6 "USB-B1HSB6" H 0   0   50  0001 C CNN "MPN"
 	1    10300 3850
 	1    0    0    -1  
 $EndComp
@@ -368,6 +400,9 @@ F 0 "U2" H 4825 1875 50  0000 C CNN
 F 1 "MAX98357" H 4825 1784 50  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 4950 1400 50  0001 C CNN
 F 3 "" H 4950 1400 50  0001 C CNN
+F 4 "MAX98357AETE+TCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/maxim-integrated/MAX98357AETE-T/MAX98357AETE-TCT-ND/7603777" H 0   0   50  0001 C CNN "Link"
+F 6 "MAX98357AETE+T" H 0   0   50  0001 C CNN "MPN"
 	1    4950 1400
 	1    0    0    -1  
 $EndComp
@@ -423,6 +458,9 @@ F 0 "R7" V 4100 1400 50  0000 C CNN
 F 1 "100K" V 4050 1250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3980 1250 50  0001 C CNN
 F 3 "" H 4050 1250 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
 	1    4050 1250
 	0    1    1    0   
 $EndComp
@@ -434,6 +472,9 @@ F 0 "R12" V 4200 1450 50  0000 C CNN
 F 1 "634K" V 4100 1450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 1450 50  0001 C CNN
 F 3 "" H 4100 1450 50  0001 C CNN
+F 4 "541-634KHCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW0603634KFKEA/541-634KHCT-ND/1180130" H 0   0   50  0001 C CNN "Link"
+F 6 "CRCW0603634KFKEA" H 0   0   50  0001 C CNN "MPN"
 	1    4100 1450
 	0    1    1    0   
 $EndComp
@@ -456,6 +497,9 @@ F 0 "J6" H 5730 2092 50  0000 L CNN
 F 1 "Conn_01x02" H 5730 2001 50  0000 L CNN
 F 2 "Connectors:bornier2" H 5650 2100 50  0001 C CNN
 F 3 "~" H 5650 2100 50  0001 C CNN
+F 4 "277-1667-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614" H 0   0   50  0001 C CNN "Link"
+F 6 "1935161" H 0   0   50  0001 C CNN "MPN"
 	1    5650 2100
 	0    1    1    0   
 $EndComp
@@ -561,13 +605,16 @@ F 3 "" H 10150 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:R-Device R2
+L pi-hat-rescue:R-Device-pi-hat-rescue R2
 U 1 1 5B6A131D
 P 10150 1800
 F 0 "R2" H 10220 1846 50  0000 L CNN
 F 1 "470R" V 10150 1700 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10080 1800 50  0001 C CNN
 F 3 "~" H 10150 1800 50  0001 C CNN
+F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
+F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
 	1    10150 1800
 	1    0    0    -1  
 $EndComp
@@ -581,6 +628,9 @@ F 0 "J9" H 10430 1392 50  0000 L CNN
 F 1 "Conn_01x02" H 10430 1301 50  0000 L CNN
 F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 10350 1400 50  0001 C CNN
 F 3 "~" H 10350 1400 50  0001 C CNN
+F 4 "455-2247-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045" H 0   0   50  0001 C CNN "Link"
+F 6 "B2B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    10350 1400
 	1    0    0    -1  
 $EndComp
@@ -718,6 +768,9 @@ F 0 "C3" H 4242 2046 50  0000 L CNN
 F 1 "10uF" H 4242 1955 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4150 2000 50  0001 C CNN
 F 3 "" H 4150 2000 50  0001 C CNN
+F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    4150 2000
 	1    0    0    -1  
 $EndComp
@@ -754,6 +807,9 @@ F 0 "C5" H 3892 2046 50  0000 L CNN
 F 1 "10uF" H 3892 1955 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3800 2000 50  0001 C CNN
 F 3 "" H 3800 2000 50  0001 C CNN
+F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    3800 2000
 	1    0    0    -1  
 $EndComp
@@ -767,6 +823,9 @@ F 0 "C4" H 3542 2046 50  0000 L CNN
 F 1 "100nF" H 3542 1955 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3450 2000 50  0001 C CNN
 F 3 "" H 3450 2000 50  0001 C CNN
+F 4 "720-1756-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104MXXAT/720-1756-1-ND/8324176" H 0   0   50  0001 C CNN "Link"
+F 6 "VJ0805Y104MXXAT" H 0   0   50  0001 C CNN "MPN"
 	1    3450 2000
 	1    0    0    -1  
 $EndComp

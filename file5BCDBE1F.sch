@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pi-hat-rescue:ATTINY85-20SU-pi-hat-cache U?
+L pi-hat-rescue:ATTINY85-20SU-pi-hat-cache-pi-hat-rescue U?
 U 1 1 5BCDC427
 P 4850 4850
 AR Path="/5BCDC427" Ref="U?"  Part="1" 
@@ -24,13 +24,15 @@ F 0 "U5" H 5250 5250 50  0000 C CNN
 F 1 "ATTINY85-20SU" H 4850 5276 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 5800 4850 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 4850 4850 50  0001 C CNN
-F 4 "ATTINY85-20PU-ND, AE9986-ND" H 4850 4850 50  0001 C CNN "Digikey"
+F 4 "AE9986-ND" H 4850 4850 50  0001 C CNN "Digikey"
 F 5 "AE9986-ND" H 4850 4850 50  0001 C CNN "Digikey"
+F 6 "https://www.digikey.com/product-detail/en/assmann-wsw-components/A-08-LC-TT/AE9986-ND/821740" H 0   0   50  0001 C CNN "Link"
+F 7 "A 08-LC-TT" H 0   0   50  0001 C CNN "MPN"
 	1    4850 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache J?
+L pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache-pi-hat-rescue J?
 U 1 1 5BCDC42E
 P 1050 2550
 AR Path="/5BCDC42E" Ref="J?"  Part="1" 
@@ -40,6 +42,8 @@ F 1 "Jack-DC" H 1128 2784 50  0000 C CNN
 F 2 "Connectors:BARREL_JACK" H 1100 2510 50  0001 C CNN
 F 3 "~" H 1100 2510 50  0001 C CNN
 F 4 "CP-002A-ND" H 1050 2550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" H 0   0   50  0001 C CNN "Link"
+F 6 "PJ-002A" H 0   0   50  0001 C CNN "MPN"
 	1    1050 2550
 	1    0    0    -1  
 $EndComp
@@ -61,7 +65,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 5700 3450 5750
 $Comp
-L pi-hat-rescue:R-Device R?
+L pi-hat-rescue:R-Device-pi-hat-rescue R?
 U 1 1 5BCDC43D
 P 3000 6150
 AR Path="/5BCDC43D" Ref="R?"  Part="1" 
@@ -70,6 +74,9 @@ F 0 "R9" H 3070 6196 50  0000 L CNN
 F 1 "100K" V 3000 6050 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 6150 50  0001 C CNN
 F 3 "~" H 3000 6150 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
 	1    3000 6150
 	1    0    0    -1  
 $EndComp
@@ -78,7 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 5950 3000 6000
 $Comp
-L pi-hat-rescue:LED-Device D?
+L pi-hat-rescue:LED-Device-pi-hat-rescue D?
 U 1 1 5BCDC447
 P 3100 4700
 AR Path="/5BCDC447" Ref="D?"  Part="1" 
@@ -88,11 +95,13 @@ F 1 "LED_GREEN" H 3250 4800 50  0000 R CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 3100 4700 50  0001 C CNN
 F 3 "~" H 3100 4700 50  0001 C CNN
 F 4 "160-1446-1-ND" H 3100 4700 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834" H 0   0   50  0001 C CNN "Link"
+F 6 "LTST-C191KGKT" H 0   0   50  0001 C CNN "MPN"
 	1    3100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L pi-hat-rescue:R-Device R?
+L pi-hat-rescue:R-Device-pi-hat-rescue R?
 U 1 1 5BCDC44E
 P 2700 4700
 AR Path="/5BCDC44E" Ref="R?"  Part="1" 
@@ -101,11 +110,14 @@ F 0 "R6" V 2600 4650 50  0000 L CNN
 F 1 "470R" V 2700 4600 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2630 4700 50  0001 C CNN
 F 3 "~" H 2700 4700 50  0001 C CNN
+F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
+F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
 	1    2700 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L pi-hat-rescue:Q_NMOS_GDSD-Device Q?
+L pi-hat-rescue:Q_NMOS_GDSD-Device-pi-hat-rescue Q?
 U 1 1 5BCDC457
 P 3350 5950
 AR Path="/5BCDC457" Ref="Q?"  Part="1" 
@@ -115,6 +127,8 @@ F 1 "Q_NMOS_GDS" H 3555 5905 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223" H 3550 6050 50  0001 C CNN
 F 3 "~" H 3350 5950 50  0001 C CNN
 F 4 "NTF3055L108T1GOSCT-ND" H 3350 5950 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/NTF3055L108T1G/NTF3055L108T1GOSCT-ND/921563" H 0   0   50  0001 C CNN "Link"
+F 6 "NTF3055L108T1G" H 0   0   50  0001 C CNN "MPN"
 	1    3350 5950
 	1    0    0    -1  
 $EndComp
@@ -133,7 +147,7 @@ F 3 "" H 3550 5500 50  0001 C CNN
 $EndComp
 NoConn ~ 3500 5100
 $Comp
-L pi-hat-rescue:CP-Device C?
+L pi-hat-rescue:CP-Device-pi-hat-rescue C?
 U 1 1 5BCDC46F
 P 1750 2450
 AR Path="/5BCDC46F" Ref="C?"  Part="1" 
@@ -143,6 +157,8 @@ F 1 "820uF" H 1868 2405 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 1788 2300 50  0001 C CNN
 F 3 "~" H 1750 2450 50  0001 C CNN
 F 4 "1189-2915-ND" H 1750 2450 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/rubycon/25ZLH820MEFC10X20/1189-2915-ND/3563817" H 0   0   50  0001 C CNN "Link"
+F 6 "25ZLH820MEFC10X20" H 0   0   50  0001 C CNN "MPN"
 	1    1750 2450
 	1    0    0    -1  
 $EndComp
@@ -209,6 +225,8 @@ F 1 "1.5uH" V 9700 5400 50  0000 L CNN
 F 2 "pi-hat-footprints:ETQP3MxxxKVP" H 9600 5500 50  0001 C CNN
 F 3 "" H 9600 5500 50  0001 C CNN
 F 4 "P19760CT-ND" V 9600 5500 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ETQ-P3M1R5KVP/P19760CT-ND/6134813" H 0   0   50  0001 C CNN "Link"
+F 6 "ETQ-P3M1R5KVP" H 0   0   50  0001 C CNN "MPN"
 	1    9600 5500
 	0    1    1    0   
 $EndComp
@@ -222,6 +240,9 @@ F 0 "U7" H 8950 5175 50  0000 C CNN
 F 1 "TPS630701" H 8950 5084 50  0000 C CNN
 F 2 "pi-hat-footprints:TPS63070" H 9100 4850 50  0001 C CNN
 F 3 "" H 9100 4850 50  0001 C CNN
+F 4 "296-44765-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/TPS630701RNMT/296-44765-1-ND/6193752" H 0   0   50  0001 C CNN "Link"
+F 6 "TPS630701RNMT" H 0   0   50  0001 C CNN "MPN"
 	1    8950 4850
 	1    0    0    -1  
 $EndComp
@@ -268,6 +289,9 @@ F 0 "R18" V 9800 4950 50  0000 C CNN
 F 1 "10K" V 9900 4950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9830 4950 50  0001 C CNN
 F 3 "" H 9900 4950 50  0001 C CNN
+F 4 "A126394CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H 0   0   50  0001 C CNN "Link"
+F 6 "CRGH0603J10K" H 0   0   50  0001 C CNN "MPN"
 	1    9900 4950
 	0    1    1    0   
 $EndComp
@@ -281,6 +305,9 @@ F 0 "C20" H 10900 5250 50  0000 L CNN
 F 1 "10uF" H 10900 5150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10838 5050 50  0001 C CNN
 F 3 "" H 10800 5200 50  0001 C CNN
+F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    10800 5200
 	1    0    0    -1  
 $EndComp
@@ -294,6 +321,9 @@ F 0 "C19" H 10550 5250 50  0000 L CNN
 F 1 "10uF" H 10550 5150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10488 5050 50  0001 C CNN
 F 3 "" H 10450 5200 50  0001 C CNN
+F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    10450 5200
 	1    0    0    -1  
 $EndComp
@@ -307,6 +337,9 @@ F 0 "C18" H 10150 5250 50  0000 L CNN
 F 1 "10uF" H 10150 5150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10088 5050 50  0001 C CNN
 F 3 "" H 10050 5200 50  0001 C CNN
+F 4 "445-11238-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608JB1E106M080AC/445-11238-1-ND/3952904" H 0   0   50  0001 C CNN "Link"
+F 6 "C1608JB1E106M080AC" H 0   0   50  0001 C CNN "MPN"
 	1    10050 5200
 	1    0    0    -1  
 $EndComp
@@ -320,6 +353,9 @@ F 0 "C16" V 8150 5050 50  0000 C CNN
 F 1 "100nF" V 8150 4800 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8200 4950 50  0001 C CNN
 F 3 "" H 8200 4950 50  0001 C CNN
+F 4 "720-1756-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104MXXAT/720-1756-1-ND/8324176" H 0   0   50  0001 C CNN "Link"
+F 6 "VJ0805Y104MXXAT" H 0   0   50  0001 C CNN "MPN"
 	1    8200 4950
 	0    1    1    0   
 $EndComp
@@ -335,6 +371,9 @@ F 0 "R17" V 7850 5100 50  0000 C CNN
 F 1 "100K" V 7750 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7680 5100 50  0001 C CNN
 F 3 "" H 7750 5100 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
 	1    7750 5100
 	-1   0    0    1   
 $EndComp
@@ -348,6 +387,9 @@ F 0 "C13" H 7392 5696 50  0000 L CNN
 F 1 "22uF" H 7392 5605 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7300 5650 50  0001 C CNN
 F 3 "" H 7300 5650 50  0001 C CNN
+F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
+F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
 	1    7300 5650
 	1    0    0    -1  
 $EndComp
@@ -361,6 +403,9 @@ F 0 "C14" H 7742 5696 50  0000 L CNN
 F 1 "22uF" H 7742 5605 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7650 5650 50  0001 C CNN
 F 3 "" H 7650 5650 50  0001 C CNN
+F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
+F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
 	1    7650 5650
 	1    0    0    -1  
 $EndComp
@@ -374,6 +419,9 @@ F 0 "C15" H 8192 5696 50  0000 L CNN
 F 1 "22uF" H 8192 5605 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8100 5650 50  0001 C CNN
 F 3 "" H 8100 5650 50  0001 C CNN
+F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
+F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
 	1    8100 5650
 	1    0    0    -1  
 $EndComp
@@ -387,6 +435,9 @@ F 0 "C17" H 8542 5696 50  0000 L CNN
 F 1 "10uF" H 8542 5605 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8450 5650 50  0001 C CNN
 F 3 "" H 8450 5650 50  0001 C CNN
+F 4 "445-11238-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608JB1E106M080AC/445-11238-1-ND/3952904" H 0   0   50  0001 C CNN "Link"
+F 6 "C1608JB1E106M080AC" H 0   0   50  0001 C CNN "MPN"
 	1    8450 5650
 	1    0    0    -1  
 $EndComp
@@ -483,6 +534,8 @@ F 1 "PCF8523" H 9425 2006 79  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9400 1850 79  0001 C CNN
 F 3 "" H 9400 1850 79  0001 C CNN
 F 4 "568-5306-1-ND" H 9400 1850 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/nxp-usa-inc/PCF8523T-1,118/568-5306-1-ND/2530784" H 0   0   50  0001 C CNN "Link"
+F 6 "PCF8523T/1,118" H 0   0   50  0001 C CNN "MPN"
 	1    9400 1850
 	1    0    0    -1  
 $EndComp
@@ -497,6 +550,8 @@ F 1 "32.768" H 8950 1450 50  0000 R CNN
 F 2 "Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm_HandSoldering" H 8800 1700 50  0001 C CNN
 F 3 "" H 8800 1700 50  0001 C CNN
 F 4 "535-10240-1-ND" H 8800 1700 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/abracon-llc/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053" H 0   0   50  0001 C CNN "Link"
+F 6 "ABS25-32.768KHZ-6-T" H 0   0   50  0001 C CNN "MPN"
 	1    8800 1700
 	-1   0    0    1   
 $EndComp
@@ -510,8 +565,9 @@ F 0 "BT2" H 8718 2396 50  0000 L CNN
 F 1 "1206" H 8718 2305 50  0000 L CNN
 F 2 "pi-hat-footprints:CR1220" V 8600 2360 50  0001 C CNN
 F 3 "" V 8600 2360 50  0001 C CNN
-F 4 "BC501SM-ND, SY033-ND" H 8600 2300 50  0001 C CNN "Digikey"
-F 5 "SY033-ND" H 8600 2300 50  0001 C CNN "Digikey2"
+F 4 "BC501SM" H 8600 2300 50  0001 C CNN "MPN"
+F 5 "BC501SM-ND" H 8600 2300 50  0001 C CNN "Digikey"
+F 6 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BC501SM/BC501SM-ND/2439260" H 8600 2300 50  0001 C CNN "Link"
 	1    8600 2300
 	1    0    0    -1  
 $EndComp
@@ -534,7 +590,9 @@ F 0 "R16" H 10320 1646 50  0000 L CNN
 F 1 "1K" V 10250 1550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10180 1600 50  0001 C CNN
 F 3 "" H 10250 1600 50  0001 C CNN
-F 4 "311-1.0KGRCT-ND" H 10250 1600 50  0001 C CNN "Digikey"
+F 4 "P1.00KHCT-ND" H 10250 1600 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-3EKF1001V" H 0   0   50  0001 C CNN "MPN"
 	1    10250 1600
 	1    0    0    -1  
 $EndComp
@@ -565,6 +623,9 @@ F 0 "C12" H 10342 2046 50  0000 L CNN
 F 1 "10uF" H 10342 1955 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10250 2000 50  0001 C CNN
 F 3 "" H 10250 2000 50  0001 C CNN
+F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    10250 2000
 	1    0    0    -1  
 $EndComp
@@ -713,6 +774,8 @@ F 1 "SW_DPST_x2" H 2550 6094 50  0000 C CNN
 F 2 "pi-hat-footprints:CJS-1200A1" H 2550 5950 50  0001 C CNN
 F 3 "" H 2550 5950 50  0001 C CNN
 F 4 "563-1021-1-ND" H 2550 5950 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/CJS-1200TA/563-1021-1-ND/948401" H 0   0   50  0001 C CNN "Link"
+F 6 "CJS-1200TA" H 0   0   50  0001 C CNN "MPN"
 	1    2550 5950
 	1    0    0    -1  
 $EndComp
@@ -742,6 +805,8 @@ F 1 "D" V 2955 5471 50  0000 R CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3000 5550 50  0001 C CNN
 F 3 "" H 3000 5550 50  0001 C CNN
 F 4 "1N4148WXTPMSCT-ND" V 3000 5550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4148WX-TP/1N4148WXTPMSCT-ND/717312" H 0   0   50  0001 C CNN "Link"
+F 6 "1N4148WX-TP" H 0   0   50  0001 C CNN "MPN"
 	1    3000 5550
 	0    -1   -1   0   
 $EndComp
@@ -773,6 +838,8 @@ F 1 "D_Zener" V 1145 5279 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1100 5200 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Zener_diode" H 1100 5200 50  0001 C CNN
 F 4 "MM3Z4V3BCT-ND" V 1100 5200 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/MM3Z4V3B/MM3Z4V3BCT-ND/1626891" H 0   0   50  0001 C CNN "Link"
+F 6 "MM3Z4V3B" H 0   0   50  0001 C CNN "MPN"
 	1    1100 5200
 	0    1    1    0   
 $EndComp
@@ -784,7 +851,9 @@ F 0 "R1" H 1170 5646 50  0000 L CNN
 F 1 "1K" V 1100 5550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 5600 50  0001 C CNN
 F 3 "" H 1100 5600 50  0001 C CNN
-F 4 "311-1.0KGRCT-ND" H 1100 5600 50  0001 C CNN "Digikey"
+F 4 "P1.00KHCT-ND" H 1100 5600 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-3EKF1001V" H 0   0   50  0001 C CNN "MPN"
 	1    1100 5600
 	1    0    0    -1  
 $EndComp
@@ -796,6 +865,9 @@ F 0 "R4" H 1170 6046 50  0000 L CNN
 F 1 "10K" V 1100 5900 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 6000 50  0001 C CNN
 F 3 "" H 1100 6000 50  0001 C CNN
+F 4 "A126394CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H 0   0   50  0001 C CNN "Link"
+F 6 "CRGH0603J10K" H 0   0   50  0001 C CNN "MPN"
 	1    1100 6000
 	1    0    0    -1  
 $EndComp
@@ -807,6 +879,9 @@ F 0 "C1" H 1442 6046 50  0000 L CNN
 F 1 "1uF" H 1442 5955 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1350 6000 50  0001 C CNN
 F 3 "" H 1350 6000 50  0001 C CNN
+F 4 "1276-1066-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-1-ND/3889152" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21B105KAFNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    1350 6000
 	1    0    0    -1  
 $EndComp
@@ -883,6 +958,9 @@ F 0 "C2" H 6342 4896 50  0000 L CNN
 F 1 "1uF" H 6342 4805 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6250 4850 50  0001 C CNN
 F 3 "" H 6250 4850 50  0001 C CNN
+F 4 "1276-1066-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-1-ND/3889152" H 0   0   50  0001 C CNN "Link"
+F 6 "CL21B105KAFNNNE" H 0   0   50  0001 C CNN "MPN"
 	1    6250 4850
 	1    0    0    -1  
 $EndComp
