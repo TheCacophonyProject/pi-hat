@@ -15,984 +15,688 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pi-hat-rescue:ATTINY85-20SU-pi-hat-cache-pi-hat-rescue U?
-U 1 1 5BCDC427
-P 4850 4850
-AR Path="/5BCDC427" Ref="U?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC427" Ref="U5"  Part="1" 
-F 0 "U5" H 5250 5250 50  0000 C CNN
-F 1 "ATTINY85-20SU" H 4850 5276 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 5800 4850 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 4850 4850 50  0001 C CNN
-F 4 "AE9986-ND" H 4850 4850 50  0001 C CNN "Digikey"
-F 5 "AE9986-ND" H 4850 4850 50  0001 C CNN "Digikey"
-F 6 "https://www.digikey.com/product-detail/en/assmann-wsw-components/A-08-LC-TT/AE9986-ND/821740" H 0   0   50  0001 C CNN "Link"
-F 7 "A 08-LC-TT" H 0   0   50  0001 C CNN "MPN"
-	1    4850 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache-pi-hat-rescue J?
 U 1 1 5BCDC42E
-P 1050 2550
+P 850 2150
 AR Path="/5BCDC42E" Ref="J?"  Part="1" 
 AR Path="/5BCDBE20/5BCDC42E" Ref="J3"  Part="1" 
-F 0 "J3" H 1128 2875 50  0000 C CNN
-F 1 "Jack-DC" H 1128 2784 50  0000 C CNN
-F 2 "Connectors:BARREL_JACK" H 1100 2510 50  0001 C CNN
-F 3 "~" H 1100 2510 50  0001 C CNN
-F 4 "CP-002A-ND" H 1050 2550 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" H 0   0   50  0001 C CNN "Link"
-F 6 "PJ-002A" H 0   0   50  0001 C CNN "MPN"
-F 7 "DC-005" H 0   0   50  0001 C CNN "OPL"
-	1    1050 2550
+F 0 "J3" H 928 2475 50  0000 C CNN
+F 1 "Jack-DC" H 928 2384 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 900 2110 50  0001 C CNN
+F 3 "~" H 900 2110 50  0001 C CNN
+F 4 "CP-002A-ND" H 850 2150 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" H -200 -400 50  0001 C CNN "Link"
+F 6 "PJ-002A" H -200 -400 50  0001 C CNN "MPN"
+F 7 "DC-005" H -200 -400 50  0001 C CNN "OPL"
+	1    850  2150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5BCDC435
-P 6300 4600
-AR Path="/5BCDC435" Ref="#PWR?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC435" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 6300 4450 50  0001 C CNN
-F 1 "+5V" H 6300 4740 50  0000 C CNN
-F 2 "" H 6300 4600 50  0001 C CNN
-F 3 "" H 6300 4600 50  0001 C CNN
-	1    6300 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 4600 6250 4600
-Wire Wire Line
-	3450 5700 3450 5750
-$Comp
-L pi-hat-rescue:R-Device-pi-hat-rescue R?
-U 1 1 5BCDC43D
-P 3000 6150
-AR Path="/5BCDC43D" Ref="R?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC43D" Ref="R9"  Part="1" 
-F 0 "R9" H 3070 6196 50  0000 L CNN
-F 1 "100K" V 3000 6050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 6150 50  0001 C CNN
-F 3 "~" H 3000 6150 50  0001 C CNN
-F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
-F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
-F 7 "RC0603JR-07100KL" H 0   0   50  0001 C CNN "OPL"
-	1    3000 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 5950 3150 5950
-Wire Wire Line
-	3000 5950 3000 6000
-$Comp
-L pi-hat-rescue:LED-Device-pi-hat-rescue D?
-U 1 1 5BCDC447
-P 3100 4700
-AR Path="/5BCDC447" Ref="D?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC447" Ref="D2"  Part="1" 
-F 0 "D2" H 3100 4900 50  0000 R CNN
-F 1 "LED_GREEN" H 3250 4800 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 3100 4700 50  0001 C CNN
-F 3 "~" H 3100 4700 50  0001 C CNN
-F 4 "160-1446-1-ND" H 3100 4700 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834" H 0   0   50  0001 C CNN "Link"
-F 6 "LTST-C191KGKT" H 0   0   50  0001 C CNN "MPN"
-	1    3100 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L pi-hat-rescue:R-Device-pi-hat-rescue R?
-U 1 1 5BCDC44E
-P 2700 4700
-AR Path="/5BCDC44E" Ref="R?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC44E" Ref="R6"  Part="1" 
-F 0 "R6" V 2600 4650 50  0000 L CNN
-F 1 "470R" V 2700 4600 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2630 4700 50  0001 C CNN
-F 3 "~" H 2700 4700 50  0001 C CNN
-F 4 "311-470HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" H 0   0   50  0001 C CNN "Link"
-F 6 "RC0603FR-07470RL" H 0   0   50  0001 C CNN "MPN"
-F 7 "RC0603JR-07470RL" H 0   0   50  0001 C CNN "OPL"
-	1    2700 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L pi-hat-rescue:Q_NMOS_GDSD-Device-pi-hat-rescue Q?
-U 1 1 5BCDC457
-P 3350 5950
-AR Path="/5BCDC457" Ref="Q?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC457" Ref="Q3"  Part="1" 
-F 0 "Q3" H 3555 5996 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 3555 5905 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 3550 6050 50  0001 C CNN
-F 3 "~" H 3350 5950 50  0001 C CNN
-F 4 "NTF3055L108T1GOSCT-ND" H 3350 5950 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/NTF3055L108T1G/NTF3055L108T1GOSCT-ND/921563" H 0   0   50  0001 C CNN "Link"
-F 6 "NTF3055L108T1G" H 0   0   50  0001 C CNN "MPN"
-	1    3350 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BCDC45E
-P 3550 5500
-AR Path="/5BCDC45E" Ref="#PWR?"  Part="1" 
-AR Path="/5BCDBE20/5BCDC45E" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 3550 5250 50  0001 C CNN
-F 1 "GND" H 3700 5450 50  0000 C CNN
-F 2 "" H 3550 5500 50  0001 C CNN
-F 3 "" H 3550 5500 50  0001 C CNN
-	1    3550 5500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3500 5100
 $Comp
 L pi-hat-rescue:CP-Device-pi-hat-rescue C?
 U 1 1 5BCDC46F
-P 1750 2450
+P 2600 2050
 AR Path="/5BCDC46F" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDC46F" Ref="C11"  Part="1" 
-F 0 "C11" H 1868 2496 50  0000 L CNN
-F 1 "820uF" H 1868 2405 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 1788 2300 50  0001 C CNN
-F 3 "~" H 1750 2450 50  0001 C CNN
-F 4 "1189-2915-ND" H 1750 2450 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/rubycon/25ZLH820MEFC10X20/1189-2915-ND/3563817" H 0   0   50  0001 C CNN "Link"
-F 6 "25ZLH820MEFC10X20" H 0   0   50  0001 C CNN "MPN"
-	1    1750 2450
+F 0 "C11" H 2718 2096 50  0000 L CNN
+F 1 "820uF" H 2718 2005 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 2638 1900 50  0001 C CNN
+F 3 "~" H 2600 2050 50  0001 C CNN
+F 4 "1189-2915-ND" H 2600 2050 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/rubycon/25ZLH820MEFC10X20/1189-2915-ND/3563817" H 850 -400 50  0001 C CNN "Link"
+F 6 "25ZLH820MEFC10X20" H 850 -400 50  0001 C CNN "MPN"
+	1    2600 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5BCDC47F
-P 1550 2200
+P 2600 1850
 AR Path="/5BCDC47F" Ref="#PWR?"  Part="1" 
 AR Path="/5BCDBE20/5BCDC47F" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 1550 2050 50  0001 C CNN
-F 1 "VCC" H 1567 2373 50  0000 C CNN
-F 2 "" H 1550 2200 50  0001 C CNN
-F 3 "" H 1550 2200 50  0001 C CNN
-	1    1550 2200
+F 0 "#PWR020" H 2600 1700 50  0001 C CNN
+F 1 "VCC" H 2617 2023 50  0000 C CNN
+F 2 "" H 2600 1850 50  0001 C CNN
+F 3 "" H 2600 1850 50  0001 C CNN
+	1    2600 1850
 	1    0    0    -1  
 $EndComp
-Text Label 3300 4600 0    50   ~ 0
-SDA
 Wire Wire Line
-	3300 4600 3500 4600
+	1150 2050 1200 2050
 Wire Wire Line
-	3300 4800 3500 4800
+	1150 2150 1200 2150
 Wire Wire Line
-	3450 5700 3550 5700
+	1200 2150 1200 2250
 Wire Wire Line
-	1350 2450 1400 2450
-Wire Wire Line
-	1350 2550 1400 2550
-Wire Wire Line
-	1400 2550 1400 2650
-Wire Wire Line
-	1350 2650 1400 2650
-Connection ~ 3000 5950
-Connection ~ 1400 2650
-Wire Wire Line
-	3000 6300 3000 6350
-Wire Wire Line
-	3000 6350 3450 6350
-Wire Wire Line
-	3450 6150 3450 6350
-Text Notes 2200 850  0    79   ~ 0
-These devices are always on. All other devices ground are not always conneted. \nThis is so we can power down the raspberry pi and any other peripherals so save power.
+	1150 2250 1200 2250
+Connection ~ 1200 2250
 $Comp
 L power:VCC #PWR?
 U 1 1 5BCDCDB5
-P 10800 5000
+P 9100 1450
 AR Path="/5BCDCDB5" Ref="#PWR?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDB5" Ref="#PWR028"  Part="1" 
-F 0 "#PWR028" H 10800 4850 50  0001 C CNN
-F 1 "VCC" H 10818 5127 50  0000 L CNN
-F 2 "" H 10800 5000 50  0001 C CNN
-F 3 "" H 10800 5000 50  0001 C CNN
-	1    10800 5000
+F 0 "#PWR028" H 9100 1300 50  0001 C CNN
+F 1 "VCC" H 9118 1577 50  0000 L CNN
+F 2 "" H 9100 1450 50  0001 C CNN
+F 3 "" H 9100 1450 50  0001 C CNN
+	1    9100 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:L L?
 U 1 1 5BCDCDBB
-P 9600 5500
+P 7900 1950
 AR Path="/5BCDCDBB" Ref="L?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDBB" Ref="L2"  Part="1" 
-F 0 "L2" V 9800 5450 50  0000 L CNN
-F 1 "1.5uH" V 9700 5400 50  0000 L CNN
-F 2 "pi-hat-footprints:ETQP3MxxxKVP" H 9600 5500 50  0001 C CNN
-F 3 "" H 9600 5500 50  0001 C CNN
-F 4 "P19760CT-ND" V 9600 5500 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ETQ-P3M1R5KVP/P19760CT-ND/6134813" H 0   0   50  0001 C CNN "Link"
-F 6 "ETQ-P3M1R5KVP" H 0   0   50  0001 C CNN "MPN"
-	1    9600 5500
+F 0 "L2" V 8100 1900 50  0000 L CNN
+F 1 "1.5uH" V 8000 1850 50  0000 L CNN
+F 2 "pi-hat-footprints:ETQP3MxxxKVP" H 7900 1950 50  0001 C CNN
+F 3 "" H 7900 1950 50  0001 C CNN
+F 4 "P19760CT-ND" V 7900 1950 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ETQ-P3M1R5KVP/P19760CT-ND/6134813" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "ETQ-P3M1R5KVP" H -1700 -3550 50  0001 C CNN "MPN"
+	1    7900 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L cacophony-pi-hat:TPS63070 U?
 U 1 1 5BCDCDC2
-P 8950 4850
+P 7250 1300
 AR Path="/5BCDCDC2" Ref="U?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDC2" Ref="U7"  Part="1" 
-F 0 "U7" H 8950 5175 50  0000 C CNN
-F 1 "TPS630701" H 8950 5084 50  0000 C CNN
-F 2 "pi-hat-footprints:TPS63070" H 9100 4850 50  0001 C CNN
-F 3 "" H 9100 4850 50  0001 C CNN
-F 4 "296-44765-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/texas-instruments/TPS630701RNMT/296-44765-1-ND/6193752" H 0   0   50  0001 C CNN "Link"
-F 6 "TPS630701RNMT" H 0   0   50  0001 C CNN "MPN"
-	1    8950 4850
+F 0 "U7" H 7250 1625 50  0000 C CNN
+F 1 "TPS630701" H 7250 1534 50  0000 C CNN
+F 2 "pi-hat-footprints:TPS63070" H 7400 1300 50  0001 C CNN
+F 3 "" H 7400 1300 50  0001 C CNN
+F 4 "296-44765-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/TPS630701RNMT/296-44765-1-ND/6193752" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "TPS630701RNMT" H -1700 -3550 50  0001 C CNN "MPN"
+	1    7250 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 5250 9850 5250
+	7700 1700 8150 1700
 Wire Wire Line
-	9400 5050 9450 5050
+	7700 1500 7750 1500
 Wire Wire Line
-	9400 5150 9450 5150
+	7700 1600 7750 1600
 Wire Wire Line
-	9450 5150 9450 5050
+	7750 1600 7750 1500
 $Comp
 L power:+5V #PWR?
 U 1 1 5BCDCDDB
-P 7300 5400
+P 5600 1850
 AR Path="/5BCDCDDB" Ref="#PWR?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDDB" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 7300 5250 50  0001 C CNN
-F 1 "+5V" H 7250 5550 50  0000 L CNN
-F 2 "" H 7300 5400 50  0001 C CNN
-F 3 "" H 7300 5400 50  0001 C CNN
-	1    7300 5400
+F 0 "#PWR025" H 5600 1700 50  0001 C CNN
+F 1 "+5V" H 5550 2000 50  0000 L CNN
+F 2 "" H 5600 1850 50  0001 C CNN
+F 3 "" H 5600 1850 50  0001 C CNN
+	1    5600 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 5350 8450 5350
+	6800 1800 6750 1800
 Wire Wire Line
-	8500 5450 8450 5450
+	6800 1900 6750 1900
 Wire Wire Line
-	8450 5450 8450 5350
+	6750 1900 6750 1800
 Wire Wire Line
-	8500 4750 8450 4750
-Wire Wire Line
-	8450 4750 8450 4450
-Wire Wire Line
-	8450 4450 9700 4450
+	6800 1200 6750 1200
 $Comp
 L device:R R?
 U 1 1 5BCDCDE7
-P 9900 4950
+P 7750 800
 AR Path="/5BCDCDE7" Ref="R?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDE7" Ref="R18"  Part="1" 
-F 0 "R18" V 9800 4950 50  0000 C CNN
-F 1 "10K" V 9900 4950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9830 4950 50  0001 C CNN
-F 3 "" H 9900 4950 50  0001 C CNN
-F 4 "A126394CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H 0   0   50  0001 C CNN "Link"
-F 6 "CRGH0603J10K" H 0   0   50  0001 C CNN "MPN"
-F 7 "SMD RES 10K-5%-1/10W" H 0   0   50  0001 C CNN "OPL"
-	1    9900 4950
+F 0 "R18" V 7650 800 50  0000 C CNN
+F 1 "10K" V 7750 800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7680 800 50  0001 C CNN
+F 3 "" H 7750 800 50  0001 C CNN
+F 4 "A126394CT-ND" H -2150 -4150 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H -2150 -4150 50  0001 C CNN "Link"
+F 6 "CRGH0603J10K" H -2150 -4150 50  0001 C CNN "MPN"
+F 7 "SMD RES 10K-5%-1/10W" H -2150 -4150 50  0001 C CNN "OPL"
+	1    7750 800 
 	0    1    1    0   
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCDEE
-P 10800 5200
+P 9100 1650
 AR Path="/5BCDCDEE" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDEE" Ref="C20"  Part="1" 
-F 0 "C20" H 10900 5250 50  0000 L CNN
-F 1 "10uF" H 10900 5150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10838 5050 50  0001 C CNN
-F 3 "" H 10800 5200 50  0001 C CNN
-F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
-F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
-	1    10800 5200
+F 0 "C20" H 9200 1700 50  0000 L CNN
+F 1 "10uF" H 9200 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9138 1500 50  0001 C CNN
+F 3 "" H 9100 1650 50  0001 C CNN
+F 4 "1276-2891-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H -1700 -3550 50  0001 C CNN "OPL"
+	1    9100 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCDF5
-P 10450 5200
+P 8750 1650
 AR Path="/5BCDCDF5" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDF5" Ref="C19"  Part="1" 
-F 0 "C19" H 10550 5250 50  0000 L CNN
-F 1 "10uF" H 10550 5150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10488 5050 50  0001 C CNN
-F 3 "" H 10450 5200 50  0001 C CNN
-F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
-F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
-	1    10450 5200
+F 0 "C19" H 8850 1700 50  0000 L CNN
+F 1 "10uF" H 8850 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8788 1500 50  0001 C CNN
+F 3 "" H 8750 1650 50  0001 C CNN
+F 4 "1276-2891-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "CL21A106KAYNNNE" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CC0805KKX5R8BB106" H -1700 -3550 50  0001 C CNN "OPL"
+	1    8750 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCDFC
-P 10050 5200
+P 8350 1650
 AR Path="/5BCDCDFC" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCDFC" Ref="C18"  Part="1" 
-F 0 "C18" H 10150 5250 50  0000 L CNN
-F 1 "10uF" H 10150 5150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10088 5050 50  0001 C CNN
-F 3 "" H 10050 5200 50  0001 C CNN
-F 4 "445-11238-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608JB1E106M080AC/445-11238-1-ND/3952904" H 0   0   50  0001 C CNN "Link"
-F 6 "C1608JB1E106M080AC" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0603KRX5R6BB106" H 0   0   50  0001 C CNN "OPL"
-	1    10050 5200
+F 0 "C18" H 8450 1700 50  0000 L CNN
+F 1 "10uF" H 8450 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8388 1500 50  0001 C CNN
+F 3 "" H 8350 1650 50  0001 C CNN
+F 4 "490-7202-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61E106MA73D/490-7202-1-ND/3900486" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "GRM188R61E106MA73D" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CC0603KRX5R6BB106" H -1700 -3550 50  0001 C CNN "OPL"
+	1    8350 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCE09
-P 8200 4950
+P 6500 1400
 AR Path="/5BCDCE09" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCE09" Ref="C16"  Part="1" 
-F 0 "C16" V 8150 5050 50  0000 C CNN
-F 1 "100nF" V 8150 4800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8200 4950 50  0001 C CNN
-F 3 "" H 8200 4950 50  0001 C CNN
-F 4 "720-1756-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104MXXAT/720-1756-1-ND/8324176" H 0   0   50  0001 C CNN "Link"
-F 6 "VJ0805Y104MXXAT" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0805KRX7R9BB104" H 0   0   50  0001 C CNN "OPL"
-	1    8200 4950
+F 0 "C16" V 6450 1500 50  0000 C CNN
+F 1 "100nF" V 6450 1250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 6500 1400 50  0001 C CNN
+F 3 "" H 6500 1400 50  0001 C CNN
+F 4 "720-1756-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/vishay-vitramon/VJ0805Y104MXXAT/720-1756-1-ND/8324176" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "VJ0805Y104MXXAT" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CC0805KRX7R9BB104" H -1700 -3550 50  0001 C CNN "OPL"
+	1    6500 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8500 4950 8300 4950
+	6800 1400 6600 1400
 $Comp
 L device:R R?
 U 1 1 5BCDCE11
-P 7750 5100
+P 6050 1550
 AR Path="/5BCDCE11" Ref="R?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCE11" Ref="R17"  Part="1" 
-F 0 "R17" V 7850 5100 50  0000 C CNN
-F 1 "100K" V 7750 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7680 5100 50  0001 C CNN
-F 3 "" H 7750 5100 50  0001 C CNN
-F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
-F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
-F 7 "RC0603JR-07100KL" V 7750 5100 50  0001 C CNN "OPL"
-	1    7750 5100
+F 0 "R17" V 6150 1550 50  0000 C CNN
+F 1 "100K" V 6050 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5980 1550 50  0001 C CNN
+F 3 "" H 6050 1550 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "" V 6050 1550 50  0001 C CNN "OPL"
+	1    6050 1550
 	-1   0    0    1   
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCE1E
-P 7300 5650
+P 5600 2100
 AR Path="/5BCDCE1E" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCE1E" Ref="C13"  Part="1" 
-F 0 "C13" H 7392 5696 50  0000 L CNN
-F 1 "22uF" H 7392 5605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7300 5650 50  0001 C CNN
-F 3 "" H 7300 5650 50  0001 C CNN
-F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
-F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
-F 7 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "OPL"
-	1    7300 5650
+F 0 "C13" H 5692 2146 50  0000 L CNN
+F 1 "22uF" H 5692 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5600 2100 50  0001 C CNN
+F 3 "" H 5600 2100 50  0001 C CNN
+F 4 "490-12389-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "GRT21BR61E226ME13L" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CL21A226MQQNNNE" H -1700 -3550 50  0001 C CNN "OPL"
+	1    5600 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCE25
-P 7650 5650
+P 5950 2100
 AR Path="/5BCDCE25" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCE25" Ref="C14"  Part="1" 
-F 0 "C14" H 7742 5696 50  0000 L CNN
-F 1 "22uF" H 7742 5605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7650 5650 50  0001 C CNN
-F 3 "" H 7650 5650 50  0001 C CNN
-F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
-F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
-F 7 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "OPL"
-	1    7650 5650
+F 0 "C14" H 6042 2146 50  0000 L CNN
+F 1 "22uF" H 6042 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5950 2100 50  0001 C CNN
+F 3 "" H 5950 2100 50  0001 C CNN
+F 4 "490-12389-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "GRT21BR61E226ME13L" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CL21A226MQQNNNE" H -1700 -3550 50  0001 C CNN "OPL"
+	1    5950 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCE2C
-P 8100 5650
+P 6400 2100
 AR Path="/5BCDCE2C" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCE2C" Ref="C15"  Part="1" 
-F 0 "C15" H 8192 5696 50  0000 L CNN
-F 1 "22uF" H 8192 5605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8100 5650 50  0001 C CNN
-F 3 "" H 8100 5650 50  0001 C CNN
-F 4 "490-12389-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H 0   0   50  0001 C CNN "Link"
-F 6 "GRT21BR61E226ME13L" H 0   0   50  0001 C CNN "MPN"
-F 7 "CL21A226MQQNNNE" H 0   0   50  0001 C CNN "OPL"
-	1    8100 5650
+F 0 "C15" H 6492 2146 50  0000 L CNN
+F 1 "22uF" H 6492 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6400 2100 50  0001 C CNN
+F 3 "" H 6400 2100 50  0001 C CNN
+F 4 "490-12389-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRT21BR61E226ME13L/490-12389-1-ND/5417090" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "GRT21BR61E226ME13L" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CL21A226MQQNNNE" H -1700 -3550 50  0001 C CNN "OPL"
+	1    6400 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C_Small C?
 U 1 1 5BCDCE33
-P 8450 5650
+P 6750 2100
 AR Path="/5BCDCE33" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDCE33" Ref="C17"  Part="1" 
-F 0 "C17" H 8542 5696 50  0000 L CNN
-F 1 "10uF" H 8542 5605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8450 5650 50  0001 C CNN
-F 3 "" H 8450 5650 50  0001 C CNN
-F 4 "445-11238-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608JB1E106M080AC/445-11238-1-ND/3952904" H 0   0   50  0001 C CNN "Link"
-F 6 "C1608JB1E106M080AC" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0603KRX5R6BB106" H 0   0   50  0001 C CNN "OPL"
-	1    8450 5650
+F 0 "C17" H 6842 2146 50  0000 L CNN
+F 1 "10uF" H 6842 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6750 2100 50  0001 C CNN
+F 3 "" H 6750 2100 50  0001 C CNN
+F 4 "490-7202-1-ND" H -1700 -3550 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61E106MA73D/490-7202-1-ND/3900486" H -1700 -3550 50  0001 C CNN "Link"
+F 6 "GRM188R61E106MA73D" H -1700 -3550 50  0001 C CNN "MPN"
+F 7 "CC0603KRX5R6BB106" H -1700 -3550 50  0001 C CNN "OPL"
+	1    6750 2100
 	1    0    0    -1  
 $EndComp
-Connection ~ 8450 5450
-Text Notes 8400 4150 0    79   ~ 0
+Connection ~ 6750 1900
+Text Notes 5250 1150 0    79   ~ 0
 5V Buck/Boost convertr
 Wire Wire Line
-	9400 4950 9700 4950
+	7700 1900 7700 1950
 Wire Wire Line
-	9700 4950 9700 4450
+	7700 1950 7750 1950
 Wire Wire Line
-	9400 5450 9400 5500
+	8050 1950 8150 1950
 Wire Wire Line
-	9400 5500 9450 5500
+	8150 1700 8150 1950
 Wire Wire Line
-	9750 5500 9850 5500
+	7750 1500 8350 1500
 Wire Wire Line
-	9850 5250 9850 5500
+	9100 1500 9100 1450
+Connection ~ 7750 1500
+Connection ~ 8450 1500
 Wire Wire Line
-	9450 5050 10050 5050
+	8450 1500 8750 1500
 Wire Wire Line
-	10800 5050 10800 5000
-Connection ~ 9450 5050
+	8350 1550 8350 1500
+Connection ~ 8350 1500
 Wire Wire Line
-	10050 4950 10150 4950
+	8350 1500 8450 1500
 Wire Wire Line
-	10150 4950 10150 5050
-Connection ~ 10150 5050
+	8750 1550 8750 1500
+Connection ~ 8750 1500
 Wire Wire Line
-	10150 5050 10450 5050
+	8750 1500 9100 1500
 Wire Wire Line
-	9750 4950 9700 4950
-Connection ~ 9700 4950
+	9100 1550 9100 1500
+Connection ~ 9100 1500
 Wire Wire Line
-	10050 5100 10050 5050
-Connection ~ 10050 5050
+	8350 1750 8350 1800
 Wire Wire Line
-	10050 5050 10150 5050
+	9100 1800 9100 1750
 Wire Wire Line
-	10450 5100 10450 5050
-Connection ~ 10450 5050
+	8350 1800 8750 1800
+Connection ~ 8750 1800
 Wire Wire Line
-	10450 5050 10800 5050
+	8750 1800 8750 1750
 Wire Wire Line
-	10800 5100 10800 5050
-Connection ~ 10800 5050
+	8750 1800 9100 1800
 Wire Wire Line
-	10050 5300 10050 5350
+	6800 1300 6050 1300
 Wire Wire Line
-	10800 5350 10800 5300
+	6050 1300 6050 1400
 Wire Wire Line
-	10050 5350 10450 5350
-Connection ~ 10450 5350
+	6050 1900 6050 1700
+Connection ~ 6050 1900
 Wire Wire Line
-	10450 5350 10450 5300
+	6050 1900 6400 1900
 Wire Wire Line
-	10450 5350 10800 5350
-Text Notes 10400 4800 0    79   ~ 0
-Input Power
+	6750 2000 6750 1900
 Wire Wire Line
-	8500 4850 7750 4850
+	6400 2000 6400 1900
+Connection ~ 6400 1900
 Wire Wire Line
-	7750 4850 7750 4950
+	6750 2250 6750 2200
 Wire Wire Line
-	7750 5450 7750 5250
-Connection ~ 7750 5450
+	6400 2250 6400 2200
 Wire Wire Line
-	7750 5450 8100 5450
+	6400 1900 6750 1900
 Wire Wire Line
-	8450 5550 8450 5450
+	6400 1900 6400 1600
 Wire Wire Line
-	8100 5550 8100 5450
-Connection ~ 8100 5450
+	6400 1600 6800 1600
+Connection ~ 6400 2250
 Wire Wire Line
-	8450 5800 8450 5750
+	6400 2250 6750 2250
+Connection ~ 6750 2250
 Wire Wire Line
-	8100 5800 8100 5750
+	6750 2250 7350 2250
 Wire Wire Line
-	8100 5450 8450 5450
+	8750 1800 8750 2250
 Wire Wire Line
-	8100 5450 8100 5150
+	6250 1700 6250 2250
 Wire Wire Line
-	8100 5150 8500 5150
-Text Notes 7250 4950 0    79   ~ 0
-Output\nPower
+	6250 1700 6800 1700
+Connection ~ 6250 2250
+Wire Wire Line
+	6250 2250 6400 2250
+Wire Wire Line
+	6250 1700 6250 1500
+Connection ~ 6250 1700
+Wire Wire Line
+	6250 1500 6800 1500
+Wire Wire Line
+	6250 1500 6250 1400
+Wire Wire Line
+	6250 1400 6400 1400
+Connection ~ 6250 1500
+Wire Wire Line
+	5950 2000 5950 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	5950 1900 6050 1900
+Wire Wire Line
+	5950 2200 5950 2250
+Connection ~ 5950 2250
+Wire Wire Line
+	5600 2200 5600 2250
+Wire Wire Line
+	5600 2000 5600 1900
+Connection ~ 5600 1900
+Wire Wire Line
+	5600 1900 5600 1850
+Wire Wire Line
+	5600 1900 5950 1900
+Wire Wire Line
+	5600 2250 5950 2250
+Wire Wire Line
+	5950 2250 6250 2250
+Text Notes 1700 1500 0    79   ~ 0
+Power in
+Wire Wire Line
+	7850 1300 7850 1800
+Wire Wire Line
+	7700 1300 7850 1300
+Wire Wire Line
+	7700 1800 7850 1800
+Wire Wire Line
+	7850 1800 8250 1800
+Wire Wire Line
+	8250 1800 8250 2250
+Connection ~ 7850 1800
+Connection ~ 8250 2250
+Wire Wire Line
+	8250 2250 8750 2250
 $Comp
-L cacophony-pi-hat:PCF8523 U?
-U 1 1 5BCDFB40
-P 9400 1850
-AR Path="/5BCDFB40" Ref="U?"  Part="1" 
-AR Path="/5BCDBE20/5BCDFB40" Ref="U6"  Part="1" 
-F 0 "U6" H 9425 2141 79  0000 C CNN
-F 1 "PCF8523" H 9425 2006 79  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9400 1850 79  0001 C CNN
-F 3 "" H 9400 1850 79  0001 C CNN
-F 4 "568-5306-1-ND" H 9400 1850 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/nxp-usa-inc/PCF8523T-1,118/568-5306-1-ND/2530784" H 0   0   50  0001 C CNN "Link"
-F 6 "PCF8523T/1,118" H 0   0   50  0001 C CNN "MPN"
-	1    9400 1850
+L cacophony-pi-hat:AP2210N-3.3TRG1 U3
+U 1 1 5C89E51D
+P 4100 1900
+F 0 "U3" H 4125 2165 50  0000 C CNN
+F 1 "AP2210N-3.3TRG1" H 4125 2074 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4100 1900 50  0001 C CNN
+F 3 "" H 4100 1900 50  0001 C CNN
+F 4 "AP2210N-3.3TRG1DICT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP2210N-3.3TRG1/AP2210N-3.3TRG1DICT-ND/4505294" H 0   0   50  0001 C CNN "Link"
+F 6 "AP2210N-3.3TRG1" H 0   0   50  0001 C CNN "MPN"
+	1    4100 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal_GND23 Y?
-U 1 1 5BCDFB47
-P 8800 1700
-AR Path="/5BCDFB47" Ref="Y?"  Part="1" 
-AR Path="/5BCDBE20/5BCDFB47" Ref="Y2"  Part="1" 
-F 0 "Y2" H 8850 1350 50  0000 R CNN
-F 1 "32.768" H 8950 1450 50  0000 R CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm_HandSoldering" H 8800 1700 50  0001 C CNN
-F 3 "" H 8800 1700 50  0001 C CNN
-F 4 "535-10240-1-ND" H 8800 1700 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/abracon-llc/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053" H 0   0   50  0001 C CNN "Link"
-F 6 "ABS25-32.768KHZ-6-T" H 0   0   50  0001 C CNN "MPN"
-	1    8800 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L device:Battery_Cell BT?
-U 1 1 5BCDFB54
-P 8600 2300
-AR Path="/5BCDFB54" Ref="BT?"  Part="1" 
-AR Path="/5BCDBE20/5BCDFB54" Ref="BT2"  Part="1" 
-F 0 "BT2" H 8718 2396 50  0000 L CNN
-F 1 "1206" H 8718 2305 50  0000 L CNN
-F 2 "pi-hat-footprints:CR1220" V 8600 2360 50  0001 C CNN
-F 3 "" V 8600 2360 50  0001 C CNN
-F 4 "BC501SM" H 8600 2300 50  0001 C CNN "MPN"
-F 5 "BC501SM-ND" H 8600 2300 50  0001 C CNN "Digikey"
-F 6 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BC501SM/BC501SM-ND/2439260" H 8600 2300 50  0001 C CNN "Link"
-	1    8600 2300
-	1    0    0    -1  
-$EndComp
-Text Label 9900 2150 0    50   ~ 0
-SDA
-Text Label 9900 2050 0    50   ~ 0
-SCL
-Wire Wire Line
-	9850 2050 9900 2050
-Wire Wire Line
-	9850 2150 9900 2150
-NoConn ~ 9850 1950
-$Comp
-L device:R R?
-U 1 1 5BCDFB71
-P 10250 1600
-AR Path="/5BCDFB71" Ref="R?"  Part="1" 
-AR Path="/5BCDBE20/5BCDFB71" Ref="R16"  Part="1" 
-F 0 "R16" H 10320 1646 50  0000 L CNN
-F 1 "1K" V 10250 1550 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10180 1600 50  0001 C CNN
-F 3 "" H 10250 1600 50  0001 C CNN
-F 4 "P1.00KHCT-ND" H 10250 1600 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-3EKF1001V" H 0   0   50  0001 C CNN "MPN"
-F 7 "RC0603JR-071KL" H 0   0   50  0001 C CNN "OPL"
-	1    10250 1600
+L power:VCC #PWR013
+U 1 1 5C89E762
+P 3450 1850
+F 0 "#PWR013" H 3450 1700 50  0001 C CNN
+F 1 "VCC" H 3467 2023 50  0000 C CNN
+F 2 "" H 3450 1850 50  0001 C CNN
+F 3 "" H 3450 1850 50  0001 C CNN
+	1    3450 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5BCDFB78
-P 10250 1400
-AR Path="/5BCDFB78" Ref="#PWR?"  Part="1" 
-AR Path="/5BCDBE20/5BCDFB78" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 10250 1250 50  0001 C CNN
-F 1 "+5V" H 10265 1573 50  0000 C CNN
-F 2 "" H 10250 1400 50  0001 C CNN
-F 3 "" H 10250 1400 50  0001 C CNN
-	1    10250 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 1850 10250 1850
-Wire Wire Line
-	10250 1850 10250 1750
-$Comp
-L device:C_Small C?
-U 1 1 5BCDFB86
-P 10250 2000
-AR Path="/5BCDFB86" Ref="C?"  Part="1" 
-AR Path="/5BCDBE20/5BCDFB86" Ref="C12"  Part="1" 
-F 0 "C12" H 10342 2046 50  0000 L CNN
-F 1 "10uF" H 10342 1955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10250 2000 50  0001 C CNN
-F 3 "" H 10250 2000 50  0001 C CNN
-F 4 "1276-2891-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KAYNNNE/1276-2891-1-ND/3890977" H 0   0   50  0001 C CNN "Link"
-F 6 "CL21A106KAYNNNE" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0805KKX5R8BB106" H 0   0   50  0001 C CNN "OPL"
-	1    10250 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 1900 10250 1850
-Connection ~ 10250 1850
-Text Notes 9300 1350 0    79   ~ 0
-RTC
-Wire Wire Line
-	9000 1850 8950 1850
-Connection ~ 8100 5800
-Wire Wire Line
-	8100 5800 8450 5800
-Connection ~ 8450 5800
-Wire Wire Line
-	8450 5800 9950 5800
-Wire Wire Line
-	10450 5350 10450 5800
-Wire Wire Line
-	7950 5250 7950 5800
-Wire Wire Line
-	7950 5250 8500 5250
-Connection ~ 7950 5800
-Wire Wire Line
-	7950 5800 8100 5800
-Wire Wire Line
-	7950 5250 7950 5050
-Connection ~ 7950 5250
-Wire Wire Line
-	7950 5050 8500 5050
-Wire Wire Line
-	7950 5050 7950 4950
-Wire Wire Line
-	7950 4950 8100 4950
-Connection ~ 7950 5050
-Wire Wire Line
-	7650 5550 7650 5450
-Connection ~ 7650 5450
-Wire Wire Line
-	7650 5450 7750 5450
-Wire Wire Line
-	7650 5750 7650 5800
-Connection ~ 7650 5800
-Wire Wire Line
-	7300 5750 7300 5800
-Wire Wire Line
-	7300 5550 7300 5450
-Connection ~ 7300 5450
-Wire Wire Line
-	7300 5450 7300 5400
-Wire Wire Line
-	7300 5450 7650 5450
-Wire Wire Line
-	7300 5800 7650 5800
-Wire Wire Line
-	7650 5800 7950 5800
-Wire Wire Line
-	9000 2150 9000 2650
-Connection ~ 9000 2650
-Wire Wire Line
-	9000 2650 10250 2650
-Wire Wire Line
-	8600 2400 8600 2650
-Wire Wire Line
-	8600 2650 9000 2650
-Wire Wire Line
-	8600 2100 8600 2050
-Wire Wire Line
-	8600 2050 9000 2050
-Wire Wire Line
-	10250 2100 10250 2650
-Text Label 3300 4800 0    50   ~ 0
-SCL
-Text Notes 3050 6950 0    79   ~ 0
-Connecting Global \nground by the \nATtiny or manual \nswitch
-Wire Wire Line
-	10250 1400 10250 1450
-Text HLabel 6050 7000 0    79   Input ~ 0
-SDA
-Text HLabel 6050 7150 0    79   Input ~ 0
-SCL
-Text Label 6150 7000 0    79   ~ 0
-SDA
-Text Label 6150 7150 0    79   ~ 0
-SCL
-Wire Wire Line
-	6050 7000 6150 7000
-Wire Wire Line
-	6050 7150 6150 7150
-Text Label 2250 2650 0    79   ~ 0
-Ground
-Wire Wire Line
-	1400 2650 1750 2650
-Wire Wire Line
-	1750 2600 1750 2650
-Connection ~ 1750 2650
-Wire Wire Line
-	1750 2650 2250 2650
-Wire Wire Line
-	1400 2250 1550 2250
-Wire Wire Line
-	1750 2250 1750 2300
-Wire Wire Line
-	1400 2250 1400 2450
-Wire Wire Line
-	1550 2200 1550 2250
-Connection ~ 1550 2250
-Wire Wire Line
-	1550 2250 1750 2250
-Wire Wire Line
-	3250 4700 3500 4700
-Wire Wire Line
-	2950 4700 2850 4700
-Wire Wire Line
-	10250 2650 10350 2650
-Connection ~ 10250 2650
-Text Label 10350 2650 0    79   ~ 0
-Ground
-Text Label 6300 5100 0    79   ~ 0
-Ground
-Wire Wire Line
-	10450 5800 10600 5800
-Connection ~ 10450 5800
-Text Label 10600 5800 0    79   ~ 0
-Ground
-Wire Wire Line
-	3550 5750 3550 5700
-Wire Wire Line
-	3450 5700 3450 5450
-Wire Wire Line
-	3450 5450 3550 5450
-Wire Wire Line
-	3550 5450 3550 5500
-Connection ~ 3450 5700
-Wire Wire Line
-	3450 6350 3600 6350
-Connection ~ 3450 6350
-Text Label 3600 6350 0    79   ~ 0
-Ground
-$Comp
-L switches:SW_DPST_x2 SW1
-U 1 1 5BE891D2
-P 2550 5950
-F 0 "SW1" H 2550 6185 50  0000 C CNN
-F 1 "SW_DPST_x2" H 2550 6094 50  0000 C CNN
-F 2 "pi-hat-footprints:CJS-1200A1" H 2550 5950 50  0001 C CNN
-F 3 "" H 2550 5950 50  0001 C CNN
-F 4 "563-1021-1-ND" H 2550 5950 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/nidec-copal-electronics/CJS-1200TA/563-1021-1-ND/948401" H 0   0   50  0001 C CNN "Link"
-F 6 "CJS-1200TA" H 0   0   50  0001 C CNN "MPN"
-	1    2550 5950
+L power:GND #PWR014
+U 1 1 5C89E81D
+P 4300 2300
+F 0 "#PWR014" H 4300 2050 50  0001 C CNN
+F 1 "GND" H 4305 2127 50  0000 C CNN
+F 2 "" H 4300 2300 50  0001 C CNN
+F 3 "" H 4300 2300 50  0001 C CNN
+	1    4300 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR07
-U 1 1 5BE894FD
-P 2200 5900
-F 0 "#PWR07" H 2200 5750 50  0001 C CNN
-F 1 "+5V" H 2215 6073 50  0000 C CNN
-F 2 "" H 2200 5900 50  0001 C CNN
-F 3 "" H 2200 5900 50  0001 C CNN
-	1    2200 5900
+L power:+3.3V #PWR016
+U 1 1 5C89E8D8
+P 4750 1850
+F 0 "#PWR016" H 4750 1700 50  0001 C CNN
+F 1 "+3.3V" H 4765 2023 50  0000 C CNN
+F 2 "" H 4750 1850 50  0001 C CNN
+F 3 "" H 4750 1850 50  0001 C CNN
+	1    4750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5C89EA2B
+P 4600 2100
+F 0 "C8" H 4692 2146 50  0000 L CNN
+F 1 "2.2uF" H 4692 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4600 2100 50  0001 C CNN
+F 3 "" H 4600 2100 50  0001 C CNN
+F 4 "1276-1040-1-ND" H 4600 2100 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A225KO8NNNC/1276-1040-1-ND/3889126" H 4600 2100 50  0001 C CNN "Link"
+F 6 "CL10A225KO8NNNC" H 4600 2100 50  0001 C CNN "MPN"
+	1    4600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5C89EAC0
+P 3600 2100
+F 0 "C7" H 3692 2146 50  0000 L CNN
+F 1 "2.2uF" H 3692 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3600 2100 50  0001 C CNN
+F 3 "" H 3600 2100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A225KO8NNNC/1276-1040-1-ND/3889126" H 0   0   50  0001 C CNN "Link"
+F 5 "CL10A225KO8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 6 "1276-1040-1-ND" H 0   0   50  0001 C CNN "Digikey"
+	1    3600 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 5950 3000 5950
+	3450 1850 3450 1900
 Wire Wire Line
-	2350 5950 2200 5950
+	3450 1900 3600 1900
 Wire Wire Line
-	2200 5950 2200 5900
+	3600 2000 3600 1900
+Connection ~ 3600 1900
+Wire Wire Line
+	3600 1900 3750 1900
+Wire Wire Line
+	3600 2200 3600 2250
+Wire Wire Line
+	4600 2250 4600 2200
+Wire Wire Line
+	4100 2200 4100 2250
+Wire Wire Line
+	3600 2250 4100 2250
+Connection ~ 4100 2250
+Wire Wire Line
+	4100 2250 4300 2250
+Wire Wire Line
+	4500 1900 4600 1900
+Wire Wire Line
+	4750 1900 4750 1850
+Wire Wire Line
+	4600 2000 4600 1900
+Connection ~ 4600 1900
 $Comp
-L device:D D4
-U 1 1 5BEABBAC
-P 3000 5550
-F 0 "D4" V 3046 5471 50  0000 R CNN
-F 1 "D" V 2955 5471 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3000 5550 50  0001 C CNN
-F 3 "" H 3000 5550 50  0001 C CNN
-F 4 "1N4148WXTPMSCT-ND" V 3000 5550 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4148WX-TP/1N4148WXTPMSCT-ND/717312" H 0   0   50  0001 C CNN "Link"
-F 6 "1N4148WX-TP" H 0   0   50  0001 C CNN "MPN"
-	1    3000 5550
+L Device:Q_PMOS_DGS Q3
+U 1 1 5C89C5A4
+P 1950 2000
+F 0 "Q3" V 2293 2000 50  0000 C CNN
+F 1 "Q_PMOS_DGS" V 2202 2000 50  0000 C CNN
+F 2 "digikey-footprints:IRF9310PbF" H 2150 2100 50  0001 C CNN
+F 3 "~" H 1950 2000 50  0001 C CNN
+F 4 "IRF9310TRPBFCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/products/en?keywords=IRF9310TRPBFCT-ND" H 0   0   50  0001 C CNN "Link"
+F 6 "IRF9310TRPBF" H 0   0   50  0001 C CNN "MPN"
+	1    1950 2000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3000 5950 3000 5700
-Wire Wire Line
-	3000 5400 3000 4900
-Wire Wire Line
-	3000 4900 3500 4900
-Text Notes 1300 1850 0    79   ~ 0
-Power in
 $Comp
-L power:VCC #PWR06
-U 1 1 5BEC58D4
-P 1100 5000
-F 0 "#PWR06" H 1100 4850 50  0001 C CNN
-F 1 "VCC" H 1117 5173 50  0000 C CNN
-F 2 "" H 1100 5000 50  0001 C CNN
-F 3 "" H 1100 5000 50  0001 C CNN
-	1    1100 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:D_Zener D3
-U 1 1 5BEC5BD3
-P 1100 5200
-F 0 "D3" V 1054 5279 50  0000 L CNN
-F 1 "D_Zener" V 1145 5279 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 1100 5200 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/Zener_diode" H 1100 5200 50  0001 C CNN
-F 4 "MM3Z4V3BCT-ND" V 1100 5200 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/MM3Z4V3B/MM3Z4V3BCT-ND/1626891" H 0   0   50  0001 C CNN "Link"
-F 6 "MM3Z4V3B" H 0   0   50  0001 C CNN "MPN"
-	1    1100 5200
+L Device:Fuse F1
+U 1 1 5C8B932A
+P 1450 1900
+F 0 "F1" V 1253 1900 50  0000 C CNN
+F 1 "Fuse" V 1344 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1380 1900 50  0001 C CNN
+F 3 "~" H 1450 1900 50  0001 C CNN
+F 4 "P15125CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERB-RE5R00V/P15125CT-ND/2796832" H 0   0   50  0001 C CNN "Link"
+F 6 "ERB-RE5R00V" H 0   0   50  0001 C CNN "MPN"
+	1    1450 1900
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8450 800  7900 800 
+Wire Wire Line
+	7600 800  6750 800 
+Wire Wire Line
+	6750 800  6750 1200
+Wire Wire Line
+	8450 800  8450 1500
+Wire Wire Line
+	7700 1400 7950 1400
 $Comp
-L device:R R1
-U 1 1 5BEC5DD2
-P 1100 5600
-F 0 "R1" H 1170 5646 50  0000 L CNN
-F 1 "1K" V 1100 5550 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 5600 50  0001 C CNN
-F 3 "" H 1100 5600 50  0001 C CNN
-F 4 "P1.00KHCT-ND" H 1100 5600 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1001V/P1.00KHCT-ND/198071" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-3EKF1001V" H 0   0   50  0001 C CNN "MPN"
-F 7 "RC0603JR-071KL" H 0   0   50  0001 C CNN "OPL"
-	1    1100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R4
-U 1 1 5BEC5E67
-P 1100 6000
-F 0 "R4" H 1170 6046 50  0000 L CNN
-F 1 "10K" V 1100 5900 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 6000 50  0001 C CNN
-F 3 "" H 1100 6000 50  0001 C CNN
-F 4 "A126394CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGH0603J10K/A126394CT-ND/7603449" H 0   0   50  0001 C CNN "Link"
-F 6 "CRGH0603J10K" H 0   0   50  0001 C CNN "MPN"
-F 7 "SMD RES 10K-5%-1/10W" H 0   0   50  0001 C CNN "OPL"
-	1    1100 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C_Small C1
-U 1 1 5BEC5F0B
-P 1350 6000
-F 0 "C1" H 1442 6046 50  0000 L CNN
-F 1 "1uF" H 1442 5955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1350 6000 50  0001 C CNN
-F 3 "" H 1350 6000 50  0001 C CNN
-F 4 "1276-1066-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-1-ND/3889152" H 0   0   50  0001 C CNN "Link"
-F 6 "CL21B105KAFNNNE" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0805KKX7R8BB105" H 0   0   50  0001 C CNN "OPL"
-	1    1350 6000
+L power:GND #PWR021
+U 1 1 5C9B582A
+P 7350 2300
+F 0 "#PWR021" H 7350 2050 50  0001 C CNN
+F 1 "GND" H 7355 2127 50  0000 C CNN
+F 2 "" H 7350 2300 50  0001 C CNN
+F 3 "" H 7350 2300 50  0001 C CNN
+	1    7350 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6350 2000 6350
+	7350 2300 7350 2250
+Connection ~ 7350 2250
 Wire Wire Line
-	1100 6350 1100 6150
-Connection ~ 3000 6350
+	7350 2250 8250 2250
 Wire Wire Line
-	1350 6100 1350 6350
-Connection ~ 1350 6350
+	1200 2250 1950 2250
 Wire Wire Line
-	1350 6350 1100 6350
+	1200 2050 1200 1900
 Wire Wire Line
-	1100 5850 1100 5800
+	1200 1900 1300 1900
 Wire Wire Line
-	1100 5800 1350 5800
+	1600 1900 1750 1900
 Wire Wire Line
-	1350 5800 1350 5900
-Connection ~ 1100 5800
+	2150 1900 2600 1900
 Wire Wire Line
-	1100 5800 1100 5750
+	1950 2200 1950 2250
+Connection ~ 1950 2250
 Wire Wire Line
-	1100 5050 1100 5000
-Text Notes 500  4750 0    79   ~ 0
-Input voltage detection\nfor battery monitoring.
+	1950 2250 2250 2250
 Wire Wire Line
-	1100 5350 1100 5450
+	2600 2250 2600 2200
 Wire Wire Line
-	1350 5800 1600 5800
-Connection ~ 1350 5800
+	2600 1900 2600 1850
+Connection ~ 2600 1900
 Wire Wire Line
-	2000 4700 2000 6350
+	4300 2300 4300 2250
+Connection ~ 4300 2250
 Wire Wire Line
-	2000 4700 2550 4700
-Connection ~ 2000 6350
-Wire Wire Line
-	2000 6350 1350 6350
-Wire Wire Line
-	1600 5800 1600 5000
-Wire Wire Line
-	1600 5000 3500 5000
-NoConn ~ 8800 1900
-Wire Wire Line
-	8950 1850 8950 1700
-Wire Wire Line
-	8600 1950 8600 1700
-Wire Wire Line
-	8600 1700 8650 1700
-Wire Wire Line
-	8600 1950 9000 1950
-NoConn ~ 8800 1500
-Wire Wire Line
-	9550 4850 9550 5350
-Wire Wire Line
-	9400 4850 9550 4850
-Wire Wire Line
-	9400 5350 9550 5350
-Wire Wire Line
-	9550 5350 9950 5350
-Wire Wire Line
-	9950 5350 9950 5800
-Connection ~ 9550 5350
-Connection ~ 9950 5800
-Wire Wire Line
-	9950 5800 10450 5800
+	4300 2250 4600 2250
 $Comp
-L device:C_Small C?
-U 1 1 5B3379C5
-P 6250 4850
-AR Path="/5B3379C5" Ref="C?"  Part="1" 
-AR Path="/5BCDBE20/5B3379C5" Ref="C2"  Part="1" 
-F 0 "C2" H 6342 4896 50  0000 L CNN
-F 1 "1uF" H 6342 4805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6250 4850 50  0001 C CNN
-F 3 "" H 6250 4850 50  0001 C CNN
-F 4 "1276-1066-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-1-ND/3889152" H 0   0   50  0001 C CNN "Link"
-F 6 "CL21B105KAFNNNE" H 0   0   50  0001 C CNN "MPN"
-F 7 "CC0805KKX7R8BB105" H 0   0   50  0001 C CNN "OPL"
-	1    6250 4850
+L power:GND #PWR019
+U 1 1 5C9FE107
+P 2250 2300
+F 0 "#PWR019" H 2250 2050 50  0001 C CNN
+F 1 "GND" H 2255 2127 50  0000 C CNN
+F 2 "" H 2250 2300 50  0001 C CNN
+F 3 "" H 2250 2300 50  0001 C CNN
+	1    2250 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 5100 6250 5100
+	2250 2300 2250 2250
+Connection ~ 2250 2250
 Wire Wire Line
-	6250 5100 6250 4950
-Connection ~ 6250 5100
+	2250 2250 2600 2250
+Text HLabel 7950 1000 2    50   Input ~ 0
+5V_Enable
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CF53E32
+P 5100 1850
+F 0 "#FLG0101" H 5100 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 5100 2024 50  0000 C CNN
+F 2 "" H 5100 1850 50  0001 C CNN
+F 3 "" H 5100 1850 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6250 5100 6300 5100
+	4750 1900 5100 1900
 Wire Wire Line
-	6250 4750 6250 4600
+	5100 1900 5100 1850
 Wire Wire Line
-	6250 4600 6300 4600
-Connection ~ 6250 4600
+	4600 1900 4750 1900
+Connection ~ 4750 1900
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CF57122
+P 1200 1850
+F 0 "#FLG0102" H 1200 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 2024 50  0000 C CNN
+F 2 "" H 1200 1850 50  0001 C CNN
+F 3 "" H 1200 1850 50  0001 C CNN
+	1    1200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1900 1200 1850
+Connection ~ 1200 1900
+$Comp
+L Device:R R10
+U 1 1 5CF864DE
+P 8250 1300
+F 0 "R10" H 8320 1346 50  0000 L CNN
+F 1 "100K" H 8320 1255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8180 1300 50  0001 C CNN
+F 3 "" H 8250 1300 50  0001 C CNN
+F 4 "RR08P100KDCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDCT-ND/432772" H 0   0   50  0001 C CNN "Link"
+F 6 "RR0816P-104-D" H 0   0   50  0001 C CNN "MPN"
+	1    8250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1400 7950 1150
+Wire Wire Line
+	7950 1150 8250 1150
+Connection ~ 7950 1150
+Wire Wire Line
+	7950 1150 7950 1000
+Wire Wire Line
+	8250 1450 8250 1800
+Connection ~ 8250 1800
 $EndSCHEMATC
