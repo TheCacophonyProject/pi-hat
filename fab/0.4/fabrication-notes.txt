@@ -1,0 +1,2 @@
+The 40 pin header (J1) should have the male part point up and female down as shown in the attached picture.
+The PCB in the attached picture is for the previous version so there are a few small changes.

@@ -1,4 +1,5 @@
-(module TPS63070 (layer F.Cu) (tedit 5B32483C)
+(module TPS63070 (layer F.Cu) (tedit 5CC27673)
+  (attr smd)
   (fp_text reference U7 (at -1.882068 -2.487228 225) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.125)))
   )

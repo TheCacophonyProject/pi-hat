@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:pi-hat-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,9 +22,9 @@ F 0 "J1" H 2700 7450 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 2700 7350 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3100 7350 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf" H 2150 5950 50  0001 C CNN
-F 4 "S6104-ND" H -300 0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC202LFBN-RC/S6104-ND/807240" H -300 0   50  0001 C CNN "Link"
-F 6 "PPTC202LFBN-RC" H -300 0   50  0001 C CNN "MPN"
+F 4 "SAM8767-ND" H -300 0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/products/en?keywords=SAM8767-ND" H -300 0   50  0001 C CNN "Link"
+F 6 "ESQ-120-14-G-D" H -300 0   50  0001 C CNN "MPN"
 	1    2100 6100
 	1    0    0    -1  
 $EndComp
@@ -100,10 +100,9 @@ F 0 "J4" H 2530 1342 50  0000 L CNN
 F 1 "Conn_01x08" H 2530 1251 50  0000 L CNN
 F 2 "Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight" H 2450 1350 50  0001 C CNN
 F 3 "~" H 2450 1350 50  0001 C CNN
-F 4 "455-2251-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B8B-XH-A(LF)(SN)/455-2251-ND/1651049" H 0   0   50  0001 C CNN "Link"
-F 6 "B8B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
-F 7 "B8B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "OPL"
+F 4 "455-1998-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B08B-XASK-1-LF-SN/455-1998-ND/1634739" H 0   0   50  0001 C CNN "Link"
+F 6 "B08B-XASK-1(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    2450 1350
 	1    0    0    -1  
 $EndComp
@@ -376,12 +375,11 @@ U 1 1 5B32249A
 P 5650 2100
 F 0 "J6" H 5730 2092 50  0000 L CNN
 F 1 "Conn_01x02" H 5730 2001 50  0000 L CNN
-F 2 "Connectors:bornier2" H 5650 2100 50  0001 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 5650 2100 50  0001 C CNN
 F 3 "~" H 5650 2100 50  0001 C CNN
-F 4 "277-1667-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614" H 0   0   50  0001 C CNN "Link"
-F 6 "1935161" H 0   0   50  0001 C CNN "MPN"
-F 7 "1725656" H 0   0   50  0001 C CNN "OPL"
+F 4 "455-1989-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B02B-XASK-1-LF-SN/455-1989-ND/1634730" H 0   0   50  0001 C CNN "Link"
+F 6 "B02B-XASK-1(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    5650 2100
 	0    1    1    0   
 $EndComp
@@ -528,15 +526,6 @@ I2S_DIN
 NoConn ~ 1200 6200
 NoConn ~ 1200 6300
 NoConn ~ 1200 6400
-NoConn ~ 1200 6500
-Wire Wire Line
-	5650 1850 5650 1900
-Wire Wire Line
-	5350 1850 5650 1850
-Wire Wire Line
-	5550 1750 5550 1900
-Wire Wire Line
-	5350 1750 5550 1750
 $Comp
 L device:C_Small C3
 U 1 1 5B36C621
@@ -648,9 +637,9 @@ F 6 "MAX3471CUA+" H 0   -100 50  0001 C CNN "MPN"
 $EndComp
 Text Label 3950 6350 2    50   ~ 0
 Tx_enable
-Text Label 3950 6200 2    50   ~ 0
-Tx
 Text Label 3950 6500 2    50   ~ 0
+Tx
+Text Label 3950 6200 2    50   ~ 0
 Rx
 $Comp
 L power:GND #PWR09
@@ -988,11 +977,11 @@ AR Path="/5BCDBE20/5CA3BA3A" Ref="J?"  Part="1"
 AR Path="/5CA3BA3A" Ref="J8"  Part="1" 
 F 0 "J8" H 9850 3050 50  0000 R CNN
 F 1 "Conn_01x04" V 9900 3500 50  0000 R CNN
-F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 9800 3350 50  0001 C CNN
+F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 9800 3350 50  0001 C CNN
 F 3 "~" H 9800 3350 50  0001 C CNN
-F 4 "455-2249-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4B-XH-A-LF-SN/455-2249-ND/1651047" H 0   0   50  0001 C CNN "Link"
-F 6 "B4B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 4 "455-1706-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4B-PH-K-S-LF-SN/455-1706-ND/926613" H 0   0   50  0001 C CNN "Link"
+F 6 "B4B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    9800 3350
 	-1   0    0    1   
 $EndComp
@@ -1068,7 +1057,7 @@ P 9350 1900
 AR Path="/5CA45D6E" Ref="BT1"  Part="1" 
 AR Path="/5BCDBE20/5CA45D6E" Ref="BT?"  Part="1" 
 F 0 "BT1" H 9468 1996 50  0000 L CNN
-F 1 "1206" H 9468 1905 50  0000 L CNN
+F 1 "1220" H 9468 1905 50  0000 L CNN
 F 2 "pi-hat-footprints:CR1220" V 9350 1960 50  0001 C CNN
 F 3 "" V 9350 1960 50  0001 C CNN
 F 4 "BC501SM" H 9350 1900 50  0001 C CNN "MPN"
@@ -1411,9 +1400,9 @@ F 0 "J2" H 6430 6592 50  0000 L CNN
 F 1 "Conn_01x04" H 6430 6501 50  0000 L CNN
 F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 6350 6600 50  0001 C CNN
 F 3 "~" H 6350 6600 50  0001 C CNN
-F 4 "455-2249-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4B-XH-A-LF-SN/455-2249-ND/1651047" H 0   0   50  0001 C CNN "Link"
-F 6 "B4B-XH-A(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 4 "455-1994-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B04B-XASK-1-LF-SN/455-1994-ND/1634735" H 0   0   50  0001 C CNN "Link"
+F 6 "B04B-XASK-1(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
 	1    6350 6600
 	1    0    0    -1  
 $EndComp
@@ -1431,4 +1420,49 @@ Wire Wire Line
 	5400 6600 6150 6600
 Wire Wire Line
 	5400 6200 5400 6600
+Text Label 1150 6500 2    50   ~ 0
+Enable_trap
+Wire Wire Line
+	1150 6500 1200 6500
+$Comp
+L mechanical:Mounting_Hole FID1
+U 1 1 5CC30A0D
+P 9600 6300
+F 0 "FID1" H 9700 6346 50  0000 L CNN
+F 1 "FIDUCIAL" H 9700 6255 50  0000 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9600 6300 50  0001 C CNN
+F 3 "" H 9600 6300 50  0001 C CNN
+	1    9600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mechanical:Mounting_Hole FID2
+U 1 1 5CC30B76
+P 9600 6050
+F 0 "FID2" H 9700 6096 50  0000 L CNN
+F 1 "FIDUCIAL" H 9700 6005 50  0000 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9600 6050 50  0001 C CNN
+F 3 "" H 9600 6050 50  0001 C CNN
+	1    9600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L mechanical:Mounting_Hole FID3
+U 1 1 5CC3ABA3
+P 9600 5800
+F 0 "FID3" H 9700 5846 50  0000 L CNN
+F 1 "FIDUCIAL" H 9700 5755 50  0000 L CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9600 5800 50  0001 C CNN
+F 3 "" H 9600 5800 50  0001 C CNN
+	1    9600 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1750 5650 1900
+Wire Wire Line
+	5350 1750 5650 1750
+Wire Wire Line
+	5350 1850 5550 1850
+Wire Wire Line
+	5550 1850 5550 1900
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:pi-hat-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -17,58 +17,58 @@ $EndDescr
 $Comp
 L pi-hat-rescue:Connector_Specialized_Jack-DC-pi-hat-cache-pi-hat-rescue J?
 U 1 1 5BCDC42E
-P 850 2150
+P 750 2150
 AR Path="/5BCDC42E" Ref="J?"  Part="1" 
 AR Path="/5BCDBE20/5BCDC42E" Ref="J3"  Part="1" 
-F 0 "J3" H 928 2475 50  0000 C CNN
-F 1 "Jack-DC" H 928 2384 50  0000 C CNN
-F 2 "Connectors:BARREL_JACK" H 900 2110 50  0001 C CNN
-F 3 "~" H 900 2110 50  0001 C CNN
-F 4 "CP-002A-ND" H 850 2150 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" H -200 -400 50  0001 C CNN "Link"
-F 6 "PJ-002A" H -200 -400 50  0001 C CNN "MPN"
-F 7 "DC-005" H -200 -400 50  0001 C CNN "OPL"
-	1    850  2150
+F 0 "J3" H 828 2475 50  0000 C CNN
+F 1 "Jack-DC" H 828 2384 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 800 2110 50  0001 C CNN
+F 3 "~" H 800 2110 50  0001 C CNN
+F 4 "CP-002A-ND" H 750 2150 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/cui-inc/PJ-002A/CP-002A-ND/96962" H -300 -400 50  0001 C CNN "Link"
+F 6 "PJ-002A" H -300 -400 50  0001 C CNN "MPN"
+F 7 "DC-005" H -300 -400 50  0001 C CNN "OPL"
+	1    750  2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L pi-hat-rescue:CP-Device-pi-hat-rescue C?
 U 1 1 5BCDC46F
-P 2600 2050
+P 2200 2050
 AR Path="/5BCDC46F" Ref="C?"  Part="1" 
 AR Path="/5BCDBE20/5BCDC46F" Ref="C11"  Part="1" 
-F 0 "C11" H 2718 2096 50  0000 L CNN
-F 1 "820uF" H 2718 2005 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 2638 1900 50  0001 C CNN
-F 3 "~" H 2600 2050 50  0001 C CNN
-F 4 "1189-2915-ND" H 2600 2050 50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/rubycon/25ZLH820MEFC10X20/1189-2915-ND/3563817" H 850 -400 50  0001 C CNN "Link"
-F 6 "25ZLH820MEFC10X20" H 850 -400 50  0001 C CNN "MPN"
-	1    2600 2050
+F 0 "C11" H 2318 2096 50  0000 L CNN
+F 1 "270uF" H 2318 2005 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.50mm" H 2238 1900 50  0001 C CNN
+F 3 "~" H 2200 2050 50  0001 C CNN
+F 4 "1189-2915-ND" H 2200 2050 50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/rubycon/25ZLH820MEFC10X20/1189-2915-ND/3563817" H 450 -400 50  0001 C CNN "Link"
+F 6 "25ZLH820MEFC10X20" H 450 -400 50  0001 C CNN "MPN"
+	1    2200 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5BCDC47F
-P 2600 1850
+P 2900 1850
 AR Path="/5BCDC47F" Ref="#PWR?"  Part="1" 
 AR Path="/5BCDBE20/5BCDC47F" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 2600 1700 50  0001 C CNN
-F 1 "VCC" H 2617 2023 50  0000 C CNN
-F 2 "" H 2600 1850 50  0001 C CNN
-F 3 "" H 2600 1850 50  0001 C CNN
-	1    2600 1850
+F 0 "#PWR020" H 2900 1700 50  0001 C CNN
+F 1 "VCC" H 2917 2023 50  0000 C CNN
+F 2 "" H 2900 1850 50  0001 C CNN
+F 3 "" H 2900 1850 50  0001 C CNN
+	1    2900 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 2050 1200 2050
+	1050 2050 1100 2050
 Wire Wire Line
-	1150 2150 1200 2150
+	1050 2150 1100 2150
 Wire Wire Line
-	1200 2150 1200 2250
+	1100 2150 1100 2250
 Wire Wire Line
-	1150 2250 1200 2250
-Connection ~ 1200 2250
+	1050 2250 1100 2250
+Connection ~ 1100 2250
 $Comp
 L power:VCC #PWR?
 U 1 1 5BCDCDB5
@@ -549,29 +549,29 @@ Connection ~ 4600 1900
 $Comp
 L Device:Q_PMOS_DGS Q3
 U 1 1 5C89C5A4
-P 1950 2000
-F 0 "Q3" V 2293 2000 50  0000 C CNN
-F 1 "Q_PMOS_DGS" V 2202 2000 50  0000 C CNN
-F 2 "digikey-footprints:IRF9310PbF" H 2150 2100 50  0001 C CNN
-F 3 "~" H 1950 2000 50  0001 C CNN
-F 4 "IRF9310TRPBFCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/products/en?keywords=IRF9310TRPBFCT-ND" H 0   0   50  0001 C CNN "Link"
-F 6 "IRF9310TRPBF" H 0   0   50  0001 C CNN "MPN"
-	1    1950 2000
+P 1550 2000
+F 0 "Q3" V 1893 2000 50  0000 C CNN
+F 1 "Q_PMOS_DGS" V 1802 2000 50  0000 C CNN
+F 2 "digikey-footprints:IRF9310PbF" H 1750 2100 50  0001 C CNN
+F 3 "~" H 1550 2000 50  0001 C CNN
+F 4 "IRF9310TRPBFCT-ND" H -400 0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/products/en?keywords=IRF9310TRPBFCT-ND" H -400 0   50  0001 C CNN "Link"
+F 6 "IRF9310TRPBF" H -400 0   50  0001 C CNN "MPN"
+	1    1550 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Fuse F1
 U 1 1 5C8B932A
-P 1450 1900
-F 0 "F1" V 1253 1900 50  0000 C CNN
-F 1 "Fuse" V 1344 1900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 1380 1900 50  0001 C CNN
-F 3 "~" H 1450 1900 50  0001 C CNN
-F 4 "P15125CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERB-RE5R00V/P15125CT-ND/2796832" H 0   0   50  0001 C CNN "Link"
-F 6 "ERB-RE5R00V" H 0   0   50  0001 C CNN "MPN"
-	1    1450 1900
+P 2550 1900
+F 0 "F1" V 2353 1900 50  0000 C CNN
+F 1 "Fuse" V 2444 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 1900 50  0001 C CNN
+F 3 "~" H 2550 1900 50  0001 C CNN
+F 4 "P15125CT-ND" H 1100 0   50  0001 C CNN "Digikey"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERB-RE5R00V/P15125CT-ND/2796832" H 1100 0   50  0001 C CNN "Link"
+F 6 "ERB-RE5R00V" H 1100 0   50  0001 C CNN "MPN"
+	1    2550 1900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -601,26 +601,6 @@ Connection ~ 7350 2250
 Wire Wire Line
 	7350 2250 8250 2250
 Wire Wire Line
-	1200 2250 1950 2250
-Wire Wire Line
-	1200 2050 1200 1900
-Wire Wire Line
-	1200 1900 1300 1900
-Wire Wire Line
-	1600 1900 1750 1900
-Wire Wire Line
-	2150 1900 2600 1900
-Wire Wire Line
-	1950 2200 1950 2250
-Connection ~ 1950 2250
-Wire Wire Line
-	1950 2250 2250 2250
-Wire Wire Line
-	2600 2250 2600 2200
-Wire Wire Line
-	2600 1900 2600 1850
-Connection ~ 2600 1900
-Wire Wire Line
 	4300 2300 4300 2250
 Connection ~ 4300 2250
 Wire Wire Line
@@ -628,19 +608,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR019
 U 1 1 5C9FE107
-P 2250 2300
-F 0 "#PWR019" H 2250 2050 50  0001 C CNN
-F 1 "GND" H 2255 2127 50  0000 C CNN
-F 2 "" H 2250 2300 50  0001 C CNN
-F 3 "" H 2250 2300 50  0001 C CNN
-	1    2250 2300
+P 2800 2300
+F 0 "#PWR019" H 2800 2050 50  0001 C CNN
+F 1 "GND" H 2805 2127 50  0000 C CNN
+F 2 "" H 2800 2300 50  0001 C CNN
+F 3 "" H 2800 2300 50  0001 C CNN
+	1    2800 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 2300 2250 2250
-Connection ~ 2250 2250
-Wire Wire Line
-	2250 2250 2600 2250
+	2800 2300 2800 2250
 Text HLabel 7950 1000 2    50   Input ~ 0
 5V_Enable
 $Comp
@@ -664,17 +641,14 @@ Connection ~ 4750 1900
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5CF57122
-P 1200 1850
-F 0 "#FLG0102" H 1200 1925 50  0001 C CNN
-F 1 "PWR_FLAG" H 1200 2024 50  0000 C CNN
-F 2 "" H 1200 1850 50  0001 C CNN
-F 3 "" H 1200 1850 50  0001 C CNN
-	1    1200 1850
+P 1100 1850
+F 0 "#FLG0102" H 1100 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 2024 50  0000 C CNN
+F 2 "" H 1100 1850 50  0001 C CNN
+F 3 "" H 1100 1850 50  0001 C CNN
+	1    1100 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 1900 1200 1850
-Connection ~ 1200 1900
 $Comp
 L Device:R R10
 U 1 1 5CF864DE
@@ -699,4 +673,32 @@ Wire Wire Line
 Wire Wire Line
 	8250 1450 8250 1800
 Connection ~ 8250 1800
+Wire Wire Line
+	1100 2250 1550 2250
+Wire Wire Line
+	1550 2200 1550 2250
+Connection ~ 1550 2250
+Wire Wire Line
+	2700 1900 2900 1900
+Wire Wire Line
+	2900 1900 2900 1850
+Connection ~ 2200 1900
+Wire Wire Line
+	1550 2250 2200 2250
+Wire Wire Line
+	2200 2200 2200 2250
+Connection ~ 2200 2250
+Wire Wire Line
+	2200 2250 2800 2250
+Wire Wire Line
+	1100 1850 1100 1900
+Wire Wire Line
+	2200 1900 2400 1900
+Wire Wire Line
+	1750 1900 2200 1900
+Wire Wire Line
+	1350 1900 1100 1900
+Connection ~ 1100 1900
+Wire Wire Line
+	1100 1900 1100 2050
 $EndSCHEMATC
